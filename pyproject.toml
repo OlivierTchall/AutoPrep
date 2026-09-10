@@ -1,11 +1,9 @@
 [project]
 name = "autoprep"
 version = "0.1.0"
-description = "Add your description here"
+description = "AutoPrep Agent — HITL LangGraph agent for cleaning PME sales datasets"
 readme = "README.md"
-authors = [
-    { name = "TCHALLY", email = "tchallyolivier@gmail.com" }
-]
+authors = [{ name = "TCHALLY", email = "tchallyolivier@gmail.com" }]
 requires-python = ">=3.14"
 dependencies = [
     "faker>=40.38.0",
@@ -15,13 +13,17 @@ dependencies = [
     "numpy>=2.5.3",
     "pandas>=3.0.5",
     "plotly>=7.0.0",
+    "pydantic>=2.9.0",
     "python-dotenv>=1.2.3",
     "streamlit>=1.63.0",
 ]
 
-[project.scripts]
-autoprep = "autoprep:main"
+[dependency-groups]
+dev = ["pytest>=8.3.0"]
 
-[build-system]
-requires = ["uv_build>=0.12.11,<0.13.0"]
-build-backend = "uv_build"
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

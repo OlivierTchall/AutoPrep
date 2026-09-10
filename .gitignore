@@ -11,3 +11,6 @@ wheels/
 
 # SDD scratch workspace
 .superpowers/
+
+# Secrets
+.env

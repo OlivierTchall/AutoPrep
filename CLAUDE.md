@@ -14,15 +14,14 @@ This repo is currently a **scaffold**, not an implementation. `src/autoprep/__in
 
 ## Commands
 
-Dependency management is via `uv` (`pyproject.toml` + `uv.lock`, `uv_build` backend). Python `>=3.14` (see `.python-version`).
+Dependency management is via `uv` (`pyproject.toml` + `uv.lock`). Python `>=3.14` (see `.python-version`).
 
 ```bash
-uv sync                 # install/sync dependencies into .venv
-uv run autoprep         # run the CLI entry point (autoprep:main)
-uv run streamlit run app.py   # run the Streamlit UI (once app.py exists)
+uv sync                                      # install/sync dependencies into .venv
+uv run streamlit run app.py                 # run the Streamlit UI (primary entry point)
+uv run python -m data.generate_synthetic    # regenerate the synthetic dataset
+uv run pytest                                # run the test suite
 ```
-
-No test runner or linter is configured yet (no `pytest`/`ruff` in `pyproject.toml`). The architecture doc specifies a `tests/test_scenario.py` end-to-end scenario as the MVP's definition of done — add the test dependency when implementing it.
 
 ## Architecture (target design, per `autoprep-agent-architecture.md`)
 
