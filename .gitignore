@@ -14,3 +14,10 @@ wheels/
 
 # Secrets
 .env
+
+# Generated report artifact
+rapport.md
+
+# Stray secret files (keep keys in .env only)
+Claude Key API.txt
+*.key
