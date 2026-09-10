@@ -1,0 +1,1001 @@
+order_id;date_commande;client;produit;categorie;quantite;prix_unitaire;montant_total;region;mode_paiement
+100000;2025-07-16;Hoareau SA;Souris sans fil;Informatique;26;773.02;20098.52;Auvergne-Rhône-Alpes;Virement
+100001;17/06/2025;Pottier Germain SA;Caisson tiroirs;Mobilier;29;707.89;20528.81;Grand Est;Carte
+100002;2025-02-26;Vallet Guilbert S.A.S.;Bureau assis-debout;Mobilier;8;580.19;4641.52;Occitanie;Carte
+100003;2024-12-25;Roussel Gillet SARL;Chaise ergonomique;Mobilier;4;59.31;237.24;Auvergne-Rhône-Alpes;Chèque
+100004;2025-10-09;Barre;Souris sans fil;Informatique;28;873.69;24463.32;Bretagne;Prélèvement
+100005;2025-09-27;Techer;Café 1kg;Consommables;15;41.34;620.1;Bretagne;Chèque
+100006;2024-11-18;Letellier;Point d'accès WiFi;Réseau;15;294.59;4418.85;Île-de-France;Carte
+100007;2026-04-19;Rey Bodin S.A.S.;Café 1kg;Consommables;19;429.18;8154.42;Occitanie;Chèque
+100008;2024-10-15;Duhamel Wagner SARL;Câble RJ45 5m;Réseau;7;630.84;4415.88;Bretagne;Prélèvement
+100009;2026-07-09;Bertrand;Caisson tiroirs;Mobilier;33;260.92;8610.36;Bretagne;Virement
+100010;2024-12-03;Laurent et Fils;Switch 8 ports;Réseau;32;708.66;22677.12;Occitanie;Chèque
+100011;05/01/2025;Techer;Bloc-notes;Bureau;22;512.73;11280.06;Auvergne-Rhône-Alpes;Virement
+100012;2026-01-09;Techer;Caisson tiroirs;Mobilier;26;509.58;13249.08;Occitanie;Chèque
+100013;11/01/2025;Roussel Gillet SARL;Bureau assis-debout;Mobilier;4;274.95;1099.8;Auvergne-Rhône-Alpes;Carte
+100014;2026-05-17;Regnier;Switch 8 ports;Réseau;11;768.36;8451.96;Grand Est;Virement
+100015;2026-02-19;Meyer;Switch 8 ports;Réseau;36;596.4;21470.4;Occitanie;Prélèvement
+100016;2025-08-02;Regnier;Câble RJ45 5m;Réseau;16;732.99;11727.84;Auvergne-Rhône-Alpes;Virement
+100017;2025-12-16;Joubert Chauveau S.A.;Ordinateur portable;Informatique;31;416.77;12919.87;Grand Est;Chèque
+100018;2024-10-28;Raynaud et Fils;Switch 8 ports;Réseau;20;402.65;8053.0;Auvergne-Rhône-Alpes;Carte
+100019;04/07/2025;Barre;Gobelets x100;Consommables;24;80.71;1937.04;Auvergne-Rhône-Alpes;Prélèvement
+100020;2025-07-02;Raynaud et Fils;Bloc-notes;Bureau;20;240.75;4815.0;Auvergne-Rhône-Alpes;Prélèvement
+100021;15/12/2025;Hoareau SA;Agrafeuse;Bureau;31;246.47;7640.57;Occitanie;Prélèvement
+100022;2025-09-07;Pruvost;"Écran 27""";Informatique;28;276.75;7749.0;Occitanie;Virement
+100023;2025-10-24;Pottier Germain SA;Caisson tiroirs;Mobilier;1;648.08;648.08;Auvergne-Rhône-Alpes;Chèque
+100024;2025-03-23;Monnier;Clavier mécanique;Informatique;4;77.83;311.32;Bretagne;Virement
+100025;12/11/2025;Gillet SA;"Écran 27""";;8;131.78;1054.24;Île-de-France;Chèque
+100026;2026-07-09;Vallet Guilbert S.A.S.;Café 1kg;Consommables;12;523.79;6285.48;Bretagne;Chèque
+100027;2024-09-17;Letellier;Ramette papier A4;Bureau;6;435.11;2610.66;Île-de-France;Virement
+100028;2026-02-19;Verdier;Cartouche encre;Bureau;27;844.17;22792.59;Occitanie;Carte
+100029;2026-03-22;Gillet SA;Switch 8 ports;Réseau;38;469.56;17843.28;Auvergne-Rhône-Alpes;Virement
+100030;2024-12-06;Meunier;Bloc-notes;Bureau;1;127.94;127.94;Auvergne-Rhône-Alpes;Virement
+100031;2026-02-20;Meyer;Lingettes écran;Consommables;5;594.16;2970.8;Grand Est;Prélèvement
+100032;28/07/2026;Joly;Ramette papier A4;Bureau;24;208.73;5009.52;Île-de-France;Chèque
+100033;2025-10-31;Duhamel Wagner SARL;Bureau assis-debout;Mobilier;13;727.81;9461.53;Auvergne-Rhône-Alpes;Prélèvement
+100034;2026-04-15;Fischer Muller SA;Café 1kg;Consommables;25;231.86;5796.5;Île-de-France;Virement
+100035;2025-04-04;Hoareau SA;Chaise ergonomique;Mobilier;12;893.15;10717.8;Île-de-France;Chèque
+100036;2026-04-28;Meunier;Point d'accès WiFi;Réseau;9;467.93;4211.37;Île-de-France;Prélèvement
+100037;2026-01-19;Barre;Agrafeuse;Bureau;16;86.83;1880.66;Auvergne-Rhône-Alpes;Carte
+100038;2025-05-31;Robert;Souris sans fil;Informatique;37;112.24;8181.82;Grand Est;Virement
+100039;2024-12-04;Bousquet;Café 1kg;Consommables;15;787.36;11810.4;Auvergne-Rhône-Alpes;
+100040;24/04/2025;Letellier;Point d'accès WiFi;Réseau;13;451.67;5871.71;Grand Est;Virement
+100041;12/08/2025;Rey Bodin S.A.S.;Ordinateur portable;;11;610.54;6715.94;Auvergne-Rhône-Alpes;Chèque
+100042;2025-01-09;Bousquet;Point d'accès WiFi;Réseau;30;181.4;5442.0;Île-de-France;Chèque
+100043;2025-08-27;Rey Bodin S.A.S.;Clavier mécanique;Informatique;33;113.13;3733.29;Île-de-France;Carte
+100044;2024-09-11;Verdier;Switch 8 ports;Réseau;6;597.25;3583.5;Occitanie;Carte
+100045;2026-03-23;Laurent et Fils;Point d'accès WiFi;Réseau;20;500.57;10011.4;Grand Est;Virement
+100046;2026-07-21;Regnier;Café 1kg;Consommables;30;869.68;26090.4;Île-de-France;Prélèvement
+100047;21/03/2026;Techer;Lingettes écran;Consommables;17;706.72;12014.24;Bretagne;Virement
+100048;2025-04-01;David Gomes S.A.R.L.;Bloc-notes;Bureau;10;210.91;2109.1;Bretagne;Chèque
+100049;2025-10-02;Goncalves;Point d'accès WiFi;Réseau;30;372.49;11174.7;Grand Est;Carte
+100050;2026-04-23;Bègue Didier S.A.R.L.;Clavier mécanique;Informatique;38;409.6;30808.6;Auvergne-Rhône-Alpes;Virement
+100051;25/01/2025;François;Point d'accès WiFi;Réseau;33;96.54;3185.82;Occitanie;
+100052;08/10/2025;François;Ramette papier A4;Bureau;8;280.68;2245.44;Grand Est;
+100053;18/08/2026;Meyer;Chaise ergonomique;Mobilier;7;139.94;1570.63;Occitanie;Virement
+100054;2024-11-30;Guilbert S.A.;Café 1kg;Consommables;8;49.94;399.52;Occitanie;Chèque
+100055;2026-07-17;Ledoux Marques SA;Câble RJ45 5m;Réseau;33;455.06;15016.98;Bretagne;Prélèvement
+100056;2026-01-07;Vasseur;Chaise ergonomique;Mobilier;20;214.6;4292.0;Bretagne;Chèque
+100057;2025-04-28;Moulin;Câble RJ45 5m;Réseau;12;337.51;4050.12;Grand Est;Virement
+100058;24/06/2026;Joly Gallet SA;Souris sans fil;Informatique;5;832.51;4162.55;Grand Est;Prélèvement
+100059;2026-01-18;Guillon;Point d'accès WiFi;Réseau;10;722.22;7222.2;Bretagne;Chèque
+100060;2025-10-08;Rey Bodin S.A.S.;Lingettes écran;Consommables;29;483.39;14018.31;Grand Est;Prélèvement
+100061;2025-12-26;Bertrand;Câble RJ45 5m;Réseau;31;576.33;17866.23;Île-de-France;Virement
+100062;2025-02-10;Regnier;Bureau assis-debout;;7;210.85;1475.95;Occitanie;Carte
+100063;2025-01-05;Bertrand;Café 1kg;Consommables;17;617.8;10502.6;Bretagne;Prélèvement
+100064;2025-06-26;Verdier;Lingettes écran;Consommables;34;296.87;10093.58;Grand Est;Prélèvement
+100065;2026-04-24;François;Bureau assis-debout;Mobilier;8;480.38;3843.04;Île-de-France;Carte
+100066;2025-01-12;Pruvost;Clavier mécanique;Informatique;2;625.93;1251.86;Grand Est;Virement
+100067;01/11/2025;Maury S.A.R.L.;Câble RJ45 5m;Réseau;25;653.69;16342.25;Occitanie;Prélèvement
+100068;2026-05-06;Letellier;Café 1kg;Consommables;38;721.19;27405.22;Occitanie;Prélèvement
+100069;2026-08-26;Vallet Guilbert S.A.S.;Point d'accès WiFi;Réseau;37;229.54;8492.98;Île-de-France;Virement
+100070;2025-10-25;Guilbert S.A.;Bureau assis-debout;Mobilier;7;509.33;3565.31;Occitanie;Carte
+100071;2026-08-23;Pottier Germain SA;Gobelets x100;Consommables;29;719.72;20871.88;Auvergne-Rhône-Alpes;Chèque
+100072;09/09/2024;Martinez SA;Souris sans fil;Informatique;33;107.16;3536.28;Occitanie;Chèque
+100073;2025-12-18;Pottier Germain SA;Gobelets x100;Consommables;36;604.77;21771.72;Bretagne;Prélèvement
+100074;2025-05-18;Rocher Briand SARL;Point d'accès WiFi;;25;329.04;8226.0;Auvergne-Rhône-Alpes;Virement
+100075;2025-09-23;Vallet Guilbert S.A.S.;Switch 8 ports;Réseau;4;395.24;1580.96;Île-de-France;Chèque
+100076;2024-09-24;Vallet Guilbert S.A.S.;Clavier mécanique;Informatique;38;702.71;48136.07;Île-de-France;Carte
+100077;04/12/2024;Joubert Chauveau S.A.;Lingettes écran;Consommables;1;856.17;856.17;Auvergne-Rhône-Alpes;Prélèvement
+100078;2026-08-31;Martinez SA;Câble RJ45 5m;Réseau;5;530.26;2651.3;Occitanie;Virement
+100079;2025-06-17;Duhamel Wagner SARL;"Écran 27""";Informatique;29;267.23;7749.67;Auvergne-Rhône-Alpes;Carte
+100080;23/07/2026;Joly;"Écran 27""";Informatique;21;703.6;14775.6;Auvergne-Rhône-Alpes;
+100081;16/06/2026;Meyer;Souris sans fil;Informatique;27;753.53;20345.31;Bretagne;Prélèvement
+100082;2026-05-28;Leconte Da Costa et Fils;Clavier mécanique;Informatique;6;83.22;499.32;Grand Est;Virement
+100083;2025-05-05;Rey Bodin S.A.S.;Ramette papier A4;Bureau;18;699.54;12591.72;Île-de-France;Prélèvement
+100084;13/03/2025;Moulin;Agrafeuse;Bureau;36;6.88;247.68;Grand Est;Chèque
+100085;23/10/2024;Robert;Point d'accès WiFi;Réseau;38;764.77;29061.26;Bretagne;Prélèvement
+100086;2025-03-15;Pottier Germain SA;Point d'accès WiFi;Réseau;5;628.91;3144.55;Occitanie;Virement
+100087;2026-07-22;Martinez SA;Chaise ergonomique;Mobilier;5;455.07;3040.29;Occitanie;Chèque
+100088;2025-11-23;Guilbert S.A.;Souris sans fil;Informatique;18;661.69;11910.42;Île-de-France;Carte
+100089;09/11/2024;Guillon;Clavier mécanique;Informatique;21;551.17;11574.57;Île-de-France;Chèque
+100090;2024-11-14;Meunier;Ordinateur portable;Informatique;9;639.2;5752.8;Auvergne-Rhône-Alpes;Virement
+100091;2026-03-31;Guillon;Café 1kg;Consommables;15;413.79;6206.85;Auvergne-Rhône-Alpes;Chèque
+100092;2025-09-21;Rey Bodin S.A.S.;Câble RJ45 5m;Réseau;18;851.53;15327.54;Occitanie;Chèque
+100093;04/06/2026;Monnier;Caisson tiroirs;Mobilier;11;846.65;9313.15;Occitanie;Chèque
+100094;01/11/2024;Techer;Gobelets x100;Consommables;36;109.06;3926.16;Grand Est;Carte
+100095;2026-04-22;Hoareau SA;"Écran 27""";Informatique;24;550.67;13216.08;Grand Est;Carte
+100096;2025-10-27;Pruvost;"Écran 27""";Informatique;33;530.3;17499.9;Grand Est;Virement
+100097;2026-04-26;Techer;Cartouche encre;Bureau;19;204.58;3887.02;Auvergne-Rhône-Alpes;Chèque
+100098;2024-12-15;Monnier;Caisson tiroirs;Mobilier;22;587.88;12933.36;Auvergne-Rhône-Alpes;Prélèvement
+100099;2024-12-17;Hoareau SA;Agrafeuse;Bureau;8;564.16;4513.28;Grand Est;Chèque
+100100;2026-02-03;Meunier;Point d'accès WiFi;Réseau;22;829.11;18240.42;Bretagne;Chèque
+100101;2025-09-13;Ledoux Marques SA;Bloc-notes;Bureau;10;753.97;7539.7;Île-de-France;Virement
+100102;2025-11-10;Duhamel Wagner SARL;Ordinateur portable;Informatique;34;51.9;1764.6;Occitanie;Carte
+100103;15/01/2025;Ledoux Marques SA;Chaise ergonomique;Mobilier;29;668.94;19399.26;Occitanie;
+100104;2025-04-02;Barre;Lingettes écran;Consommables;17;139.94;2378.98;Bretagne;Virement
+100105;2025-10-23;Letellier;Bureau assis-debout;Mobilier;20;895.93;17918.6;Occitanie;Carte
+100106;2026-07-18;Joubert Chauveau S.A.;Lingettes écran;Consommables;-2;350.28;2101.68;Auvergne-Rhône-Alpes;Virement
+100107;2025-12-24;Leleu Charpentier SA;Café 1kg;Consommables;30;149.05;4471.5;Occitanie;Prélèvement
+100368;2026-02-24;Roussel Gillet SARL;Café 1kg;Consommables;9;140.55;1264.95;Grand Est;Virement
+100108;2025-08-03;Roussel Gillet SARL;Point d'accès WiFi;Réseau;38;755.48;28708.24;Bretagne;Virement
+100109;2025-02-20;Bertrand;Bureau assis-debout;Mobilier;33;73.88;2438.04;Île-de-France;Carte
+100876;2025-03-16;Ledoux Marques SA;Câble RJ45 5m;Réseau;31;204.12;6327.72;Île-de-France;
+100110;2026-08-31;Guilbert S.A.;Bureau assis-debout;Mobilier;36;164.47;5920.92;Grand Est;Virement
+100111;2025-11-01;Meyer;Café 1kg;Consommables;8;442.2;3537.6;Bretagne;Carte
+100112;2026-04-18;Robert;Ordinateur portable;Informatique;11;759.54;8354.94;Occitanie;Chèque
+100113;2026-03-29;Pottier Germain SA;Caisson tiroirs;Mobilier;31;54.18;1679.58;Bretagne;Chèque
+100114;2026-02-26;Duhamel Wagner SARL;Câble RJ45 5m;Réseau;37;435.35;16107.95;Bretagne;Prélèvement
+100115;2025-02-12;Joly;Agrafeuse;Bureau;17;529.24;8997.08;Auvergne-Rhône-Alpes;Carte
+100116;2026-03-16;Leleu Charpentier SA;Bureau assis-debout;Mobilier;34;96.27;3273.18;Grand Est;Prélèvement
+100117;2025-05-09;Vasseur;Gobelets x100;Consommables;16;306.29;4900.64;Auvergne-Rhône-Alpes;Virement
+100118;2025-07-15;Hoareau SA;Lingettes écran;Consommables;27;278.17;7510.59;Occitanie;Virement
+100119;2026-02-12;Joubert Chauveau S.A.;Chaise ergonomique;Mobilier;7;571.13;3997.91;Grand Est;Chèque
+100120;2026-01-26;Pottier Germain SA;Câble RJ45 5m;Réseau;39;813.19;31714.41;Auvergne-Rhône-Alpes;Prélèvement
+100121;2025-06-26;Bègue Didier S.A.R.L.;Lingettes écran;Consommables;18;104.47;1880.46;Grand Est;Carte
+100122;2025-08-15;Leconte Da Costa et Fils;Gobelets x100;Consommables;38;872.89;33169.82;Île-de-France;Carte
+100123;08/08/2026;Pinto Gillet SARL;Point d'accès WiFi;Réseau;38;313.15;11899.7;Auvergne-Rhône-Alpes;Virement
+100124;2025-10-16;Verdier;Caisson tiroirs;Mobilier;38;887.02;33706.76;Auvergne-Rhône-Alpes;Prélèvement
+100125;2025-08-25;David Gomes S.A.R.L.;Cartouche encre;Bureau;3;78.17;234.51;Occitanie;Prélèvement
+100126;2024-12-11;François;Bloc-notes;Bureau;18;35.2;633.6;Grand Est;Virement
+100127;2025-03-20;Raynaud et Fils;Ramette papier A4;Bureau;37;642.51;23772.87;Île-de-France;Prélèvement
+100128;2025-03-02;François;Lingettes écran;Consommables;16;45.97;735.52;Île-de-France;Chèque
+100129;2024-10-28;Laurent et Fils;Bloc-notes;Bureau;18;464.14;8354.52;Occitanie;Virement
+100130;2025-05-29;Meunier;Gobelets x100;Consommables;28;605.11;16943.08;Occitanie;Prélèvement
+100131;2024-09-25;Bègue Didier S.A.R.L.;Bureau assis-debout;Mobilier;31;270.45;8383.95;Occitanie;Carte
+100132;09/12/2025;Meunier;"Écran 27""";Informatique;22;170.46;3750.12;Bretagne;Carte
+100133;2025-11-13;François;Caisson tiroirs;Mobilier;17;898.87;15280.79;Bretagne;Carte
+100134;2025-03-06;Roussel Gillet SARL;Chaise ergonomique;Mobilier;5;897.83;4489.15;Bretagne;Chèque
+100135;10/12/2025;Joly;"Écran 27""";Informatique;20;448.23;8964.6;Île-de-France;Carte
+100136;2025-02-27;Pruvost;Ordinateur portable;Informatique;14;17.87;250.18;Grand Est;Chèque
+100137;2024-09-14;Regnier;Câble RJ45 5m;Réseau;18;863.37;15540.66;Occitanie;
+100138;2024-11-03;Meunier;Switch 8 ports;Réseau;14;213.12;2983.68;Grand Est;Prélèvement
+100139;2026-03-12;Pinto Gillet SARL;Agrafeuse;Bureau;39;532.49;20767.11;Île-de-France;Carte
+100593;2025-08-18;Ledoux Marques SA;Câble RJ45 5m;Réseau;14;256.55;3591.7;Grand Est;Virement
+100140;2026-01-12;Ledoux Marques SA;Switch 8 ports;Réseau;12;141.59;1699.08;Île-de-France;Carte
+100141;2024-10-24;David Gomes S.A.R.L.;Clavier mécanique;Informatique;10;705.87;7058.7;Grand Est;Carte
+100142;2025-03-05;Leconte Da Costa et Fils;Point d'accès WiFi;Réseau;23;733.55;16871.65;Auvergne-Rhône-Alpes;Prélèvement
+100143;2024-10-31;Roussel Gillet SARL;Chaise ergonomique;Mobilier;7;93.5;654.5;Auvergne-Rhône-Alpes;Prélèvement
+100144;2026-08-13;Hoareau SA;Gobelets x100;Consommables;37;34.19;1265.03;Bretagne;Virement
+100145;2024-10-03;Robert;Ramette papier A4;Bureau;2;60.85;150.6;Auvergne-Rhône-Alpes;Chèque
+100146;2026-07-08;Joly Gallet SA;Café 1kg;Consommables;2;102.22;204.44;Bretagne;
+100147;2025-05-23;Pruvost;Point d'accès WiFi;Réseau;18;273.26;4918.68;Auvergne-Rhône-Alpes;Carte
+100148;03/11/2024;Martinez SA;Ordinateur portable;Informatique;12;776.76;9321.12;Île-de-France;Chèque
+100149;2025-10-13;Gillet SA;Cartouche encre;Bureau;2;389.33;778.66;Occitanie;Prélèvement
+100150;2025-03-12;Ledoux Marques SA;Chaise ergonomique;Mobilier;9;219.75;1977.75;Grand Est;Chèque
+100151;13/04/2025;Gillet SA;Ramette papier A4;Bureau;30;837.49;25124.7;Occitanie;Carte
+100152;10/02/2026;Guilbert S.A.;Point d'accès WiFi;Réseau;8;44.54;356.32;Île-de-France;
+100153;21/09/2025;Vasseur;Ordinateur portable;Informatique;37;30.09;1113.33;Bretagne;Chèque
+100154;2025-02-22;Roussel Gillet SARL;Chaise ergonomique;Mobilier;4;532.0;2128.0;Occitanie;Virement
+100155;2025-11-01;Goncalves;Bloc-notes;Bureau;21;148.14;3110.94;Grand Est;Prélèvement
+100156;2024-12-20;Joly;Cartouche encre;Bureau;10;410.1;4101.0;Grand Est;Prélèvement
+100157;2026-03-24;François;"Écran 27""";;29;287.92;8349.68;Île-de-France;Chèque
+100158;05/09/2026;Regnier;Ramette papier A4;Bureau;21;287.24;6032.04;Grand Est;Virement
+100159;2026-07-26;Laurent et Fils;Gobelets x100;Consommables;15;150.61;2259.15;Grand Est;
+100160;2025-11-26;Ledoux Marques SA;Agrafeuse;Bureau;33;801.24;26440.92;Auvergne-Rhône-Alpes;Virement
+100161;2025-11-30;Raynaud et Fils;Café 1kg;Consommables;27;157.3;4247.1;Île-de-France;Prélèvement
+100162;2025-09-11;Laurent et Fils;Ramette papier A4;Bureau;37;893.79;33070.23;Auvergne-Rhône-Alpes;Virement
+100163;2025-03-16;Meunier;Caisson tiroirs;Mobilier;4;483.51;1934.04;Île-de-France;Carte
+100164;2026-05-11;Bousquet;Café 1kg;Consommables;18;266.69;4800.42;Grand Est;Prélèvement
+100165;2025-09-11;Bousquet;Ordinateur portable;Informatique;3;209.69;629.07;Grand Est;Carte
+100166;2026-05-29;Roussel Gillet SARL;Gobelets x100;Consommables;8;357.76;2862.08;Occitanie;Chèque
+100167;2025-07-22;Pottier Germain SA;Gobelets x100;Consommables;11;885.11;9736.21;Grand Est;Chèque
+100168;2025-02-03;David Gomes S.A.R.L.;Switch 8 ports;Réseau;2;469.17;938.34;Grand Est;Virement
+100169;21/11/2024;Bertrand;Lingettes écran;Consommables;26;614.96;15988.96;Auvergne-Rhône-Alpes;Prélèvement
+100170;2024-11-23;Vasseur;Ramette papier A4;Bureau;27;773.37;20880.99;Auvergne-Rhône-Alpes;Virement
+100171;2026-02-02;Pinto Gillet SARL;Cartouche encre;Bureau;35;790.77;27676.95;Occitanie;
+100172;2025-08-09;Pinto Gillet SARL;Clavier mécanique;Informatique;26;705.1;18332.6;Occitanie;Virement
+100173;11/06/2025;Bègue Didier S.A.R.L.;Lingettes écran;Consommables;28;718.69;20123.32;Île-de-France;Virement
+100174;2025-08-04;Laurent et Fils;Caisson tiroirs;Mobilier;18;881.34;15864.12;Grand Est;Chèque
+100175;2025-07-25;Bertrand;Point d'accès WiFi;Réseau;25;288.58;7214.5;Occitanie;Chèque
+100176;2025-09-06;Goncalves;Cartouche encre;Bureau;1;841.97;841.97;Île-de-France;Virement
+100177;2026-07-11;Bertrand;Cartouche encre;Bureau;15;119.74;1796.1;Auvergne-Rhône-Alpes;Chèque
+100178;29/03/2026;Letellier;"Écran 27""";Informatique;1;220.75;220.75;Occitanie;Prélèvement
+100179;2024-10-21;Meyer;Caisson tiroirs;Mobilier;14;183.48;2568.72;Occitanie;Chèque
+100180;2026-02-14;Rocher Briand SARL;"Écran 27""";Informatique;18;42.57;766.26;Île-de-France;Prélèvement
+100181;2026-01-29;Verdier;Agrafeuse;Bureau;27;101.4;2737.8;Île-de-France;Carte
+100182;2026-01-23;Meunier;Bloc-notes;Bureau;12;811.67;9740.04;Bretagne;Prélèvement
+100183;2024-11-24;Joly Gallet SA;Bloc-notes;Bureau;23;125.74;2892.02;Auvergne-Rhône-Alpes;Chèque
+100184;2024-10-26;Duhamel Wagner SARL;Chaise ergonomique;Mobilier;32;555.85;17787.2;Occitanie;Virement
+100331;2025-06-23;Pruvost;Bureau assis-debout;Mobilier;37;762.31;35021.91;Auvergne-Rhône-Alpes;
+100185;2025-07-18;Guilbert S.A.;"Écran 27""";Informatique;18;767.04;13806.72;Occitanie;Chèque
+100186;2026-03-28;Barre;Café 1kg;Consommables;34;365.56;12429.04;Île-de-France;Prélèvement
+100187;2025-05-30;Vallet Guilbert S.A.S.;Ordinateur portable;Informatique;24;110.35;2648.4;Bretagne;Virement
+100188;2026-05-23;Duhamel Wagner SARL;Cartouche encre;Bureau;7;163.18;1142.26;Île-de-France;Carte
+100189;2026-07-10;Joubert Chauveau S.A.;Ordinateur portable;Informatique;35;766.5;26827.5;Bretagne;Carte
+100190;2024-12-02;Robert;Bureau assis-debout;Mobilier;29;221.83;6433.07;Île-de-France;Prélèvement
+100191;2025-03-21;David Gomes S.A.R.L.;Souris sans fil;;1;466.86;466.86;Occitanie;Chèque
+100192;04/02/2025;Hoareau SA;Agrafeuse;Bureau;33;120.32;3970.56;Île-de-France;Prélèvement
+100193;2025-02-03;Letellier;"Écran 27""";Informatique;33;148.89;4913.37;Grand Est;Virement
+100194;2025-10-30;Moulin;"Écran 27""";;35;108.82;3808.7;Île-de-France;Carte
+100195;2025-08-23;Techer;Câble RJ45 5m;Réseau;3;361.61;1084.83;Bretagne;Virement
+100196;2024-12-26;François;Point d'accès WiFi;Réseau;6;667.97;4007.82;Grand Est;Virement
+100197;2025-08-02;Gillet SA;Point d'accès WiFi;;27;47.0;1269.0;Île-de-France;Prélèvement
+100198;2025-01-29;Pottier Germain SA;Gobelets x100;Consommables;3;714.68;2144.04;Auvergne-Rhône-Alpes;Prélèvement
+100199;2025-04-13;Monnier;Bureau assis-debout;Mobilier;12;4.07;48.84;Auvergne-Rhône-Alpes;Carte
+100200;2025-09-03;Techer;Switch 8 ports;Réseau;16;117.87;1885.92;Bretagne;
+100201;2025-03-22;Joly;Bureau assis-debout;Mobilier;6;288.6;1731.6;Bretagne;Carte
+100202;2026-07-20;Bousquet;Agrafeuse;Bureau;26;426.56;11090.56;Occitanie;Carte
+100203;27/08/2026;Raynaud et Fils;Chaise ergonomique;Mobilier;4;761.71;3046.84;Grand Est;Carte
+100204;2024-11-06;Pinto Gillet SARL;Bloc-notes;Bureau;30;892.64;26779.2;Bretagne;Chèque
+100205;2025-08-19;Vallet Guilbert S.A.S.;"Écran 27""";;15;330.97;4964.55;Auvergne-Rhône-Alpes;Carte
+100206;2026-05-29;Joubert Chauveau S.A.;Câble RJ45 5m;Réseau;6;459.02;2754.12;Auvergne-Rhône-Alpes;Carte
+100207;2026-07-10;Gillet SA;Clavier mécanique;Informatique;16;368.52;5896.32;Auvergne-Rhône-Alpes;Virement
+100208;2026-07-05;Leconte Da Costa et Fils;Switch 8 ports;Réseau;13;590.65;7678.45;Auvergne-Rhône-Alpes;Virement
+100209;2025-11-10;Vasseur;Switch 8 ports;Réseau;32;700.78;22424.96;Bretagne;Virement
+100210;24/11/2024;Rey Bodin S.A.S.;Point d'accès WiFi;Réseau;7;249.09;1743.63;Auvergne-Rhône-Alpes;Carte
+100211;2024-10-18;Joly;Agrafeuse;Bureau;36;183.87;6619.32;Occitanie;Chèque
+100212;2026-01-28;Goncalves;Lingettes écran;Consommables;23;231.09;5315.07;Île-de-France;Carte
+100213;02/11/2025;Bertrand;Lingettes écran;Consommables;21;617.51;12967.71;Occitanie;Carte
+100214;2026-06-20;Goncalves;Lingettes écran;Consommables;38;400.66;15225.08;Grand Est;Prélèvement
+100215;2024-09-20;Leleu Charpentier SA;Cartouche encre;Bureau;34;441.86;15023.24;Grand Est;Carte
+100216;2024-11-20;Joly;Switch 8 ports;Réseau;16;831.64;13306.24;Grand Est;Prélèvement
+100217;2026-08-29;Pottier Germain SA;Clavier mécanique;Informatique;39;686.81;26785.59;Bretagne;
+100218;2026-04-17;Monnier;Café 1kg;Consommables;24;261.81;6283.44;Occitanie;Chèque
+100219;2026-06-30;Pruvost;Cartouche encre;Bureau;12;734.82;8817.84;Occitanie;Virement
+100220;2025-03-11;Gillet SA;Ramette papier A4;Bureau;2;718.16;2479.54;Auvergne-Rhône-Alpes;
+100221;2025-01-16;Martinez SA;Lingettes écran;Consommables;24;352.28;8454.72;Auvergne-Rhône-Alpes;Virement
+100222;2025-07-21;Regnier;Switch 8 ports;Réseau;2;558.46;1116.92;Auvergne-Rhône-Alpes;Prélèvement
+100223;2025-09-21;Rey Bodin S.A.S.;Café 1kg;Consommables;37;712.08;26346.96;Occitanie;Prélèvement
+100224;2025-09-17;Martinez SA;Agrafeuse;Bureau;18;749.61;13492.98;Île-de-France;Carte
+100225;2025-02-22;Fischer Muller SA;Bureau assis-debout;Mobilier;10;618.17;6181.7;Île-de-France;Prélèvement
+100226;2026-07-12;Fischer Muller SA;Souris sans fil;;2;87.49;284.23;Île-de-France;Prélèvement
+100227;17/07/2025;Techer;Cartouche encre;Bureau;12;383.45;4601.4;Auvergne-Rhône-Alpes;Chèque
+100228;2026-08-10;David Gomes S.A.R.L.;Gobelets x100;Consommables;13;749.24;9740.12;Grand Est;Carte
+100229;2024-10-24;Pinto Gillet SARL;Cartouche encre;Bureau;10;721.65;7216.5;Auvergne-Rhône-Alpes;Prélèvement
+100230;2025-01-14;Meunier;Ramette papier A4;Bureau;23;88.29;2030.67;Auvergne-Rhône-Alpes;Chèque
+100231;2025-06-30;Joly Gallet SA;Ramette papier A4;Bureau;20;2.47;49.4;Grand Est;
+100232;2024-09-10;Leconte Da Costa et Fils;Ordinateur portable;Informatique;14;741.17;10376.38;Île-de-France;Virement
+100233;2025-07-09;François;Souris sans fil;Informatique;11;485.97;5345.67;Île-de-France;Virement
+100234;2025-04-02;Pinto Gillet SARL;Bureau assis-debout;Mobilier;22;233.19;5130.18;Auvergne-Rhône-Alpes;Chèque
+100235;2026-08-29;Techer;Caisson tiroirs;Mobilier;28;332.38;9306.64;Bretagne;Virement
+100236;2026-05-11;Martinez SA;Lingettes écran;Consommables;38;79.21;3009.98;Île-de-France;Virement
+100237;11/05/2026;Bertrand;Souris sans fil;Informatique;3;891.37;2674.11;Grand Est;Chèque
+100238;2025-08-28;Bertrand;"Écran 27""";Informatique;36;787.83;28361.88;Grand Est;Prélèvement
+100239;2025-04-18;Pruvost;Chaise ergonomique;Mobilier;25;591.15;14778.75;Auvergne-Rhône-Alpes;Chèque
+100240;2025-08-03;Roussel Gillet SARL;Clavier mécanique;Informatique;30;746.04;22381.2;Occitanie;Virement
+100241;2026-03-04;Goncalves;Chaise ergonomique;Mobilier;37;438.6;16228.2;Auvergne-Rhône-Alpes;Carte
+100242;2026-03-30;Duhamel Wagner SARL;Bloc-notes;Bureau;5;505.98;2529.9;Bretagne;Carte
+100243;2026-05-10;Ledoux Marques SA;Clavier mécanique;Informatique;7;508.56;3559.92;Grand Est;Virement
+100244;2025-11-14;Pruvost;Ramette papier A4;Bureau;1;805.27;805.27;Bretagne;Virement
+100245;2026-02-05;Techer;Point d'accès WiFi;Réseau;4;429.53;1718.12;Occitanie;Virement
+100246;2026-03-21;Bousquet;Ramette papier A4;Bureau;19;177.55;3373.45;Île-de-France;Virement
+100247;2025-09-22;Pruvost;Switch 8 ports;;17;381.62;6487.54;Île-de-France;Virement
+100248;07/01/2025;Ledoux Marques SA;Lingettes écran;Consommables;8;325.96;2607.68;Occitanie;Carte
+100249;2025-02-03;Goncalves;Cartouche encre;Bureau;37;186.44;6898.28;Île-de-France;Prélèvement
+100250;2025-04-27;Martinez SA;Café 1kg;Consommables;30;105.56;3166.8;Occitanie;Virement
+100251;2025-02-25;Pottier Germain SA;Souris sans fil;Informatique;38;738.19;28051.22;Île-de-France;Prélèvement
+100252;2024-10-24;Regnier;Chaise ergonomique;Mobilier;9;292.9;2636.1;Île-de-France;Chèque
+100253;2025-12-02;Guilbert S.A.;Point d'accès WiFi;Réseau;37;880.81;32589.97;Occitanie;Carte
+100254;2026-04-03;Bertrand;Bloc-notes;Bureau;38;358.98;23723.66;Occitanie;Virement
+100255;2025-11-04;Vasseur;Café 1kg;Consommables;9;94.75;852.75;Île-de-France;Chèque
+100256;2024-10-26;Regnier;Bureau assis-debout;Mobilier;27;389.5;10516.5;Auvergne-Rhône-Alpes;Prélèvement
+100257;2026-04-12;Bertrand;Point d'accès WiFi;Réseau;29;297.68;8632.72;Grand Est;Chèque
+100258;2025-05-10;Leconte Da Costa et Fils;Cartouche encre;Bureau;12;499.85;5998.2;Grand Est;Carte
+100259;2024-10-23;Maury S.A.R.L.;"Écran 27""";Informatique;-5;151.12;3173.52;Grand Est;Carte
+100260;2024-10-17;Roussel Gillet SARL;Switch 8 ports;Réseau;31;680.47;21094.57;Occitanie;Prélèvement
+100261;06/12/2025;Bousquet;Point d'accès WiFi;Réseau;8;602.71;4821.68;Bretagne;Prélèvement
+100262;14/09/2025;Joly;Câble RJ45 5m;Réseau;5;521.92;2609.6;Bretagne;Virement
+100263;2025-10-04;Roussel Gillet SARL;Point d'accès WiFi;Réseau;36;25.83;929.88;Île-de-France;Prélèvement
+100264;2026-08-24;Techer;Cartouche encre;Bureau;8;6.91;55.28;Grand Est;
+100265;2026-07-03;Barre;Point d'accès WiFi;Réseau;39;509.44;19868.16;Bretagne;Virement
+100266;2025-10-26;Verdier;Caisson tiroirs;Mobilier;6;483.77;2902.62;Île-de-France;Prélèvement
+100267;2025-01-09;Vasseur;Lingettes écran;Consommables;34;535.66;18212.44;Occitanie;Carte
+100268;2024-10-23;François;Ordinateur portable;Informatique;16;434.62;6953.92;Bretagne;Prélèvement
+100269;2025-10-08;Regnier;Gobelets x100;Consommables;36;334.25;12033.0;Île-de-France;Virement
+100270;2024-11-10;Duhamel Wagner SARL;Point d'accès WiFi;Réseau;9;257.39;2316.51;Bretagne;
+100271;2026-07-02;Fischer Muller SA;Ordinateur portable;Informatique;37;418.38;15480.06;Occitanie;Virement
+100272;31/01/2025;Bertrand;Lingettes écran;Consommables;5;557.61;2788.05;Occitanie;Carte
+100273;2024-11-01;Pruvost;Câble RJ45 5m;Réseau;37;127.38;4713.06;Occitanie;Carte
+100274;2025-12-15;Vallet Guilbert S.A.S.;Ordinateur portable;Informatique;20;365.68;14012.38;Occitanie;Prélèvement
+100275;2024-10-31;Leconte Da Costa et Fils;Ramette papier A4;Bureau;23;784.53;18044.19;Auvergne-Rhône-Alpes;Carte
+100561;2025-07-18;Gillet SA;Ramette papier A4;Bureau;25;658.46;16461.5;Grand Est;Virement
+100276;2026-02-15;Moulin;"Écran 27""";Informatique;15;482.07;7231.05;Occitanie;Prélèvement
+100277;2026-07-10;Joubert Chauveau S.A.;Café 1kg;Consommables;8;272.98;2183.84;Auvergne-Rhône-Alpes;Virement
+100278;10/03/2025;Duhamel Wagner SARL;Bloc-notes;Bureau;30;107.52;3225.6;Île-de-France;Prélèvement
+100279;2025-07-19;Leleu Charpentier SA;Switch 8 ports;Réseau;29;824.34;23905.86;Bretagne;Carte
+100280;2024-12-11;Joly Gallet SA;Gobelets x100;Consommables;39;871.94;34005.66;Bretagne;Virement
+100281;2026-08-01;Letellier;Chaise ergonomique;Mobilier;8;86.67;693.36;Île-de-France;Chèque
+100282;2025-11-25;Guillon;Caisson tiroirs;Mobilier;5;758.25;3791.25;Bretagne;Virement
+100283;2025-03-19;Leleu Charpentier SA;Point d'accès WiFi;;12;490.06;5880.72;Auvergne-Rhône-Alpes;
+100284;2025-12-02;Verdier;Caisson tiroirs;Mobilier;30;411.85;12355.5;Auvergne-Rhône-Alpes;Carte
+100285;2025-12-14;Maury S.A.R.L.;"Écran 27""";Informatique;5;71.54;357.7;Bretagne;Carte
+100286;2024-10-09;Goncalves;Souris sans fil;Informatique;33;33.59;1108.47;Grand Est;
+100287;2026-01-03;Pruvost;Bloc-notes;Bureau;32;465.15;14884.8;Grand Est;Prélèvement
+100288;11/11/2024;Moulin;Ordinateur portable;Informatique;22;139.93;3078.46;Île-de-France;Virement
+100289;2025-07-31;Joly;Clavier mécanique;Informatique;15;484.42;7266.3;Bretagne;Virement
+100290;2026-02-01;Goncalves;Caisson tiroirs;Mobilier;34;777.99;26451.66;Île-de-France;Carte
+100291;2025-12-06;Robert;Ordinateur portable;Informatique;19;395.18;7508.42;Grand Est;Carte
+100292;2025-11-22;Leleu Charpentier SA;Bloc-notes;Bureau;5;166.16;830.8;Île-de-France;Chèque
+100293;2025-10-20;Hoareau SA;Clavier mécanique;Informatique;7;207.32;1451.24;Grand Est;Virement
+100855;2026-05-06;Regnier;Switch 8 ports;Réseau;20;771.35;15427.0;Occitanie;Chèque
+100294;2025-05-12;Vasseur;Lingettes écran;Consommables;30;98.37;2951.1;Occitanie;Chèque
+100295;2026-09-05;Hoareau SA;Clavier mécanique;Informatique;37;895.34;33127.58;Occitanie;Carte
+100296;2025-03-30;Joly Gallet SA;Câble RJ45 5m;Réseau;38;534.48;20310.24;Bretagne;Chèque
+100297;2025-02-14;Guillon;Café 1kg;Consommables;24;423.17;10156.08;Auvergne-Rhône-Alpes;Carte
+100298;2026-02-11;François;Café 1kg;Consommables;32;584.07;18690.24;Grand Est;Carte
+100299;2026-03-19;Bègue Didier S.A.R.L.;Bureau assis-debout;Mobilier;8;568.7;4549.6;Occitanie;Chèque
+100300;2025-05-11;Letellier;Lingettes écran;Consommables;37;335.08;12397.96;Bretagne;Prélèvement
+100301;2025-03-13;Pinto Gillet SARL;Agrafeuse;Bureau;2;414.82;829.64;Occitanie;Chèque
+100302;2025-04-03;Vasseur;Ramette papier A4;Bureau;16;564.89;9038.24;Auvergne-Rhône-Alpes;Prélèvement
+100303;2025-07-13;Martinez SA;Café 1kg;Consommables;22;860.53;18931.66;Auvergne-Rhône-Alpes;Virement
+100304;2024-12-19;Leleu Charpentier SA;Cartouche encre;Bureau;13;794.78;10332.14;Île-de-France;Chèque
+100305;12/02/2026;Barre;Switch 8 ports;Réseau;-7;431.61;12948.3;Auvergne-Rhône-Alpes;Carte
+100306;2026-01-23;Rey Bodin S.A.S.;Cartouche encre;Bureau;15;496.12;7441.8;Île-de-France;Virement
+100307;2025-04-30;David Gomes S.A.R.L.;Bureau assis-debout;Mobilier;10;673.7;6737.0;Auvergne-Rhône-Alpes;Carte
+100308;2025-08-30;Robert;Caisson tiroirs;Mobilier;11;326.01;3586.11;Auvergne-Rhône-Alpes;Carte
+100309;2025-05-12;Robert;Cartouche encre;Bureau;29;677.1;19635.9;Île-de-France;Carte
+100310;2026-08-31;Hoareau SA;Ramette papier A4;Bureau;1;274.06;274.06;Grand Est;Virement
+100311;2026-04-15;Vallet Guilbert S.A.S.;Caisson tiroirs;Mobilier;3;449.14;1347.42;Île-de-France;Prélèvement
+100312;2026-09-05;Goncalves;Lingettes écran;Consommables;19;801.02;20334.61;Occitanie;Prélèvement
+100313;2024-11-04;Maury S.A.R.L.;Cartouche encre;Bureau;30;16.19;485.7;Occitanie;Carte
+100314;2024-09-16;Roussel Gillet SARL;Bureau assis-debout;Mobilier;18;497.84;8961.12;Grand Est;Virement
+100315;2025-08-30;David Gomes S.A.R.L.;Café 1kg;Consommables;8;763.36;6106.88;Bretagne;Prélèvement
+100316;2026-01-04;Ledoux Marques SA;Souris sans fil;Informatique;7;362.69;2538.83;Grand Est;Chèque
+100317;2025-11-20;Gillet SA;Lingettes écran;Consommables;17;502.19;14899.93;Auvergne-Rhône-Alpes;Virement
+100318;2024-11-25;Joly Gallet SA;Ramette papier A4;;30;854.47;25634.1;Île-de-France;Prélèvement
+100319;2024-11-04;Vasseur;Clavier mécanique;;27;159.57;4308.39;Grand Est;Carte
+100320;2025-10-31;Rey Bodin S.A.S.;Point d'accès WiFi;;31;610.58;18927.98;Occitanie;Virement
+100321;2025-02-21;Letellier;Switch 8 ports;Réseau;14;239.61;3354.54;Grand Est;Carte
+100322;2025-10-06;David Gomes S.A.R.L.;Café 1kg;Consommables;31;695.12;21548.72;Bretagne;Prélèvement
+100323;2025-04-02;Laurent et Fils;Switch 8 ports;;27;514.91;13902.57;Grand Est;Virement
+100324;20/12/2024;Fischer Muller SA;Ramette papier A4;Bureau;36;729.33;26255.88;Île-de-France;Carte
+100325;2026-09-03;Barre;Agrafeuse;Bureau;7;171.58;1866.98;Occitanie;Carte
+100326;2025-06-07;Bègue Didier S.A.R.L.;Bureau assis-debout;Mobilier;29;578.74;16783.46;Île-de-France;Prélèvement
+100327;2026-07-25;Regnier;"Écran 27""";Informatique;26;831.17;21610.42;Grand Est;Chèque
+100069;2026-08-26;Vallet Guilbert S.A.S.;Point d'accès WiFi;Réseau;37;229.54;8492.98;Île-de-France;Virement
+100328;2024-11-01;Maury S.A.R.L.;Souris sans fil;Informatique;38;422.47;16053.86;Île-de-France;Virement
+100329;2026-07-23;Meyer;Bureau assis-debout;Mobilier;10;716.86;7168.6;Occitanie;Prélèvement
+100330;17/03/2025;Rocher Briand SARL;Café 1kg;Consommables;24;230.75;5538.0;Île-de-France;Prélèvement
+100331;2025-06-23;Pruvost;Bureau assis-debout;Mobilier;37;762.31;35021.91;Auvergne-Rhône-Alpes;
+100332;2025-04-18;Monnier;Ordinateur portable;Informatique;31;705.05;21856.55;Auvergne-Rhône-Alpes;Prélèvement
+100333;09/01/2025;Duhamel Wagner SARL;Lingettes écran;Consommables;10;206.44;2064.4;Grand Est;Prélèvement
+100334;15/08/2025;Goncalves;Chaise ergonomique;Mobilier;4;684.45;2737.8;Île-de-France;Prélèvement
+100335;2026-06-18;Pinto Gillet SARL;Souris sans fil;Informatique;5;398.22;1991.1;Île-de-France;Chèque
+100336;2025-11-04;François;Point d'accès WiFi;Réseau;2;674.92;1349.84;Occitanie;Virement
+100337;2026-03-09;Fischer Muller SA;Switch 8 ports;Réseau;13;455.74;5924.62;Grand Est;Carte
+100338;2025-05-01;Joly;Point d'accès WiFi;Réseau;38;223.56;8495.28;Auvergne-Rhône-Alpes;Chèque
+100339;2025-12-28;Vasseur;Agrafeuse;Bureau;32;716.12;22915.84;Île-de-France;Chèque
+100340;2026-05-28;Guillon;Point d'accès WiFi;Réseau;7;318.14;2226.98;Bretagne;Carte
+100341;2026-01-29;Maury S.A.R.L.;Souris sans fil;Informatique;9;372.31;3350.79;Île-de-France;Carte
+100342;2025-10-24;Bertrand;Caisson tiroirs;Mobilier;24;882.02;21168.48;Bretagne;
+100343;2024-09-15;Gillet SA;Bloc-notes;Bureau;9;546.51;4918.59;Grand Est;Prélèvement
+100344;2026-02-09;Pruvost;Switch 8 ports;Réseau;18;641.3;11543.4;Bretagne;Carte
+100345;05/06/2026;Gillet SA;Chaise ergonomique;Mobilier;18;778.86;14019.48;Grand Est;Carte
+100346;2025-11-13;Joly Gallet SA;Caisson tiroirs;Mobilier;34;675.24;27608.71;Occitanie;Prélèvement
+100347;2025-04-29;Meunier;Agrafeuse;Bureau;29;195.9;5681.1;Occitanie;Prélèvement
+100348;2026-09-02;Robert;Café 1kg;Consommables;32;26.41;845.12;Occitanie;Chèque
+100349;2026-02-06;Pinto Gillet SARL;Clavier mécanique;Informatique;15;479.39;7190.85;Île-de-France;Carte
+100350;2024-11-28;Pruvost;Clavier mécanique;Informatique;13;799.48;10393.24;Île-de-France;Carte
+100351;2026-09-08;Rey Bodin S.A.S.;Câble RJ45 5m;Réseau;6;875.17;5251.02;Bretagne;Prélèvement
+100352;23/07/2026;Guilbert S.A.;Switch 8 ports;Réseau;33;192.17;6341.61;Île-de-France;Virement
+100353;22/12/2024;Guillon;Ramette papier A4;Bureau;3;68.5;205.5;Occitanie;Prélèvement
+100354;2025-04-02;Pottier Germain SA;Gobelets x100;Consommables;4;568.56;2274.24;Auvergne-Rhône-Alpes;Chèque
+100355;2024-12-07;Joubert Chauveau S.A.;Bureau assis-debout;Mobilier;37;403.76;14939.12;Île-de-France;
+100356;2026-08-01;David Gomes S.A.R.L.;Ordinateur portable;Informatique;17;236.11;4013.87;Bretagne;Virement
+100357;2024-12-01;Gillet SA;Lingettes écran;Consommables;27;618.07;16687.89;Grand Est;Virement
+100358;2026-04-08;Ledoux Marques SA;Point d'accès WiFi;Réseau;9;196.53;1768.77;Bretagne;Prélèvement
+100359;2025-11-12;Roussel Gillet SARL;"Écran 27""";Informatique;39;262.27;10228.53;Auvergne-Rhône-Alpes;Chèque
+100360;2025-01-07;Goncalves;Bureau assis-debout;Mobilier;7;123.3;863.1;Bretagne;Chèque
+100361;2025-04-08;Joly Gallet SA;Caisson tiroirs;Mobilier;24;403.26;9678.24;Occitanie;Virement
+100362;2025-04-15;Hoareau SA;Switch 8 ports;Réseau;13;669.13;8698.69;Grand Est;
+100363;2025-12-22;Pottier Germain SA;Bureau assis-debout;Mobilier;2;426.36;852.72;Île-de-France;Chèque
+100364;2025-02-19;Verdier;Lingettes écran;Consommables;37;476.73;17639.01;Grand Est;Chèque
+100365;2026-03-20;Fischer Muller SA;Ordinateur portable;;16;434.47;6951.52;Auvergne-Rhône-Alpes;Carte
+100366;2025-06-02;Letellier;Bureau assis-debout;Mobilier;38;406.62;15451.56;Occitanie;Virement
+100367;2025-02-14;Laurent et Fils;Ordinateur portable;Informatique;23;389.89;8967.47;Occitanie;Chèque
+100368;2026-02-24;Roussel Gillet SARL;Café 1kg;Consommables;9;140.55;1264.95;Grand Est;Virement
+100369;2026-01-14;Gillet SA;Bureau assis-debout;Mobilier;8;578.12;4624.96;Auvergne-Rhône-Alpes;Prélèvement
+100370;2026-07-03;Joly;Ordinateur portable;Informatique;10;451.19;4511.9;Occitanie;
+100371;2025-04-02;Pruvost;Bloc-notes;Bureau;32;259.63;8308.16;Bretagne;Carte
+100372;2025-10-06;Guillon;Gobelets x100;Consommables;30;891.27;26738.1;Auvergne-Rhône-Alpes;Chèque
+100373;2025-09-23;Vallet Guilbert S.A.S.;Lingettes écran;Consommables;16;185.07;2961.12;Bretagne;Prélèvement
+100374;2025-03-23;Hoareau SA;Cartouche encre;Bureau;37;887.09;32822.33;Grand Est;Prélèvement
+100375;2026-08-13;Rocher Briand SARL;Caisson tiroirs;Mobilier;38;290.12;11024.56;Île-de-France;Chèque
+100376;2026-08-15;Monnier;Clavier mécanique;Informatique;23;368.67;8479.41;Grand Est;Carte
+100377;2026-06-28;Rey Bodin S.A.S.;Chaise ergonomique;Mobilier;21;171.46;3600.66;Grand Est;Carte
+100378;18/10/2024;Pottier Germain SA;Ordinateur portable;Informatique;5;499.48;2497.4;Grand Est;Carte
+100379;19/11/2024;Leconte Da Costa et Fils;Ordinateur portable;Informatique;10;248.98;2489.8;Île-de-France;Virement
+100380;2026-01-14;Laurent et Fils;Câble RJ45 5m;Réseau;32;764.22;24455.04;Occitanie;Chèque
+100381;2025-08-04;Hoareau SA;Cartouche encre;Bureau;27;66.47;1794.69;Bretagne;Prélèvement
+100382;2026-06-15;Vasseur;Ordinateur portable;Informatique;22;813.71;17901.62;Bretagne;Virement
+100383;2025-04-11;Leconte Da Costa et Fils;Switch 8 ports;Réseau;32;652.89;20892.48;Grand Est;Prélèvement
+100384;2024-10-13;Ledoux Marques SA;Câble RJ45 5m;Réseau;22;430.56;9472.32;Bretagne;Virement
+100385;11/09/2024;Barre;Café 1kg;Consommables;5;640.85;3204.25;Auvergne-Rhône-Alpes;Carte
+100386;2025-05-26;Goncalves;Bureau assis-debout;;10;699.43;6994.3;Auvergne-Rhône-Alpes;Chèque
+100387;2026-04-30;Verdier;Ordinateur portable;Informatique;34;543.86;18491.24;Île-de-France;Virement
+100388;2024-12-19;Techer;Switch 8 ports;Réseau;23;373.71;8595.33;Île-de-France;
+100389;16/01/2026;Pruvost;Caisson tiroirs;Mobilier;18;836.76;15061.68;Auvergne-Rhône-Alpes;Prélèvement
+100390;2025-03-31;Laurent et Fils;Caisson tiroirs;Mobilier;20;687.19;13743.8;Île-de-France;Prélèvement
+100391;2025-01-12;Roussel Gillet SARL;Bloc-notes;Bureau;8;72.18;577.44;Île-de-France;Chèque
+100392;2026-04-07;Regnier;Câble RJ45 5m;Réseau;19;515.51;9794.69;Bretagne;Chèque
+100393;2025-08-18;Pinto Gillet SARL;Café 1kg;Consommables;28;764.38;21402.64;Bretagne;Chèque
+100394;2025-11-11;Letellier;Chaise ergonomique;Mobilier;37;660.35;24432.95;Grand Est;Virement
+100395;2026-03-11;Techer;Ramette papier A4;Bureau;29;848.43;24604.47;Île-de-France;Virement
+100396;2025-08-07;Bertrand;Point d'accès WiFi;Réseau;26;766.85;19938.1;Occitanie;Chèque
+100341;2026-01-29;Maury S.A.R.L.;Souris sans fil;Informatique;9;372.31;3350.79;Île-de-France;Carte
+100397;2025-11-18;Rocher Briand SARL;Caisson tiroirs;Mobilier;5;624.25;3121.25;Occitanie;Virement
+100398;16/09/2024;Leconte Da Costa et Fils;Chaise ergonomique;Mobilier;27;307.08;8291.16;Occitanie;
+100399;2024-12-04;Meyer;Lingettes écran;Consommables;6;302.87;1817.22;Bretagne;Chèque
+100400;2024-11-06;Hoareau SA;Bloc-notes;Bureau;2;857.77;1715.54;Île-de-France;Virement
+100401;2026-07-26;Verdier;Bloc-notes;Bureau;27;129.19;3488.13;Île-de-France;Chèque
+100402;2026-02-27;Meyer;Ordinateur portable;Informatique;22;127.53;2805.66;Bretagne;Carte
+100403;2026-08-12;Meyer;Bureau assis-debout;Mobilier;-2;30.78;338.58;Auvergne-Rhône-Alpes;Carte
+100404;2025-01-02;Martinez SA;Agrafeuse;Bureau;30;14.37;431.1;Auvergne-Rhône-Alpes;Carte
+100098;2024-12-15;Monnier;Caisson tiroirs;Mobilier;22;587.88;12933.36;Auvergne-Rhône-Alpes;Prélèvement
+100405;2025-11-06;François;Cartouche encre;Bureau;30;341.3;10239.0;Auvergne-Rhône-Alpes;Chèque
+100037;2026-01-19;Barre;Agrafeuse;Bureau;16;86.83;1880.66;Auvergne-Rhône-Alpes;Carte
+100406;2024-10-06;Fischer Muller SA;Ordinateur portable;Informatique;25;311.66;7791.5;Bretagne;Virement
+100407;2026-06-19;Vallet Guilbert S.A.S.;Souris sans fil;Informatique;33;22.0;726.0;Auvergne-Rhône-Alpes;
+100408;2025-06-22;David Gomes S.A.R.L.;Switch 8 ports;Réseau;31;569.85;17665.35;Grand Est;Prélèvement
+100409;05/12/2025;Hoareau SA;Café 1kg;Consommables;15;493.2;7398.0;Bretagne;Carte
+100410;2025-11-12;Laurent et Fils;Souris sans fil;Informatique;8;408.35;3266.8;Occitanie;
+100411;02/01/2025;Guillon;"Écran 27""";Informatique;6;428.44;2570.64;Auvergne-Rhône-Alpes;
+100412;08/08/2025;Rocher Briand SARL;Lingettes écran;Consommables;39;454.65;17731.35;Occitanie;Carte
+100413;2024-12-16;Fischer Muller SA;Souris sans fil;Informatique;29;874.08;25348.32;Grand Est;Chèque
+100414;2024-10-11;Hoareau SA;Lingettes écran;Consommables;7;252.98;1770.86;Grand Est;Carte
+100415;2025-05-06;Guillon;Agrafeuse;Bureau;36;169.46;6100.56;Île-de-France;
+100416;2025-06-19;Pruvost;Bureau assis-debout;Mobilier;22;612.67;13478.74;Occitanie;Chèque
+100417;2026-08-08;Barre;Cartouche encre;Bureau;20;315.28;6305.6;Occitanie;Carte
+100418;2026-09-03;Bègue Didier S.A.R.L.;Gobelets x100;;4;515.61;2062.44;Île-de-France;Prélèvement
+100419;20/05/2026;Moulin;Bureau assis-debout;Mobilier;29;446.15;12938.35;Grand Est;Virement
+100420;2026-07-09;Rey Bodin S.A.S.;Lingettes écran;Consommables;14;726.64;10172.96;Auvergne-Rhône-Alpes;Chèque
+100421;2024-10-09;Joubert Chauveau S.A.;Clavier mécanique;Informatique;17;893.54;15190.18;Occitanie;Virement
+100422;2026-08-08;Leleu Charpentier SA;Clavier mécanique;Informatique;33;161.77;5338.41;Auvergne-Rhône-Alpes;Virement
+100423;13/06/2025;Rocher Briand SARL;Souris sans fil;Informatique;24;37.53;900.72;Bretagne;Virement
+100424;2025-02-19;Moulin;Cartouche encre;Bureau;33;252.86;8344.38;Grand Est;Carte
+100425;20/02/2026;Gillet SA;Bureau assis-debout;Mobilier;39;296.48;11562.72;Bretagne;Virement
+100426;2025-03-21;Pottier Germain SA;Ramette papier A4;Bureau;12;891.75;10701.0;Île-de-France;Chèque
+100427;2026-02-09;Ledoux Marques SA;Gobelets x100;;37;697.0;25789.0;Bretagne;Prélèvement
+100428;2024-11-27;Hoareau SA;Caisson tiroirs;;7;690.65;4834.55;Bretagne;
+100429;2025-06-10;Maury S.A.R.L.;Souris sans fil;Informatique;20;894.85;17897.0;Île-de-France;Virement
+100430;2026-05-07;Moulin;Agrafeuse;Bureau;-3;693.63;4161.78;Grand Est;Chèque
+100431;2025-11-17;Maury S.A.R.L.;Caisson tiroirs;Mobilier;14;249.78;3496.92;Grand Est;Virement
+100432;2026-07-27;Rocher Briand SARL;Gobelets x100;;19;354.68;6738.92;Île-de-France;Prélèvement
+100433;2026-07-20;Meunier;"Écran 27""";Informatique;34;384.52;13073.68;Bretagne;Chèque
+100434;2025-07-21;Rocher Briand SARL;"Écran 27""";Informatique;19;453.41;8614.79;Bretagne;Carte
+100435;2026-01-04;Regnier;Gobelets x100;Consommables;22;741.87;16321.14;Bretagne;Prélèvement
+100436;14/04/2026;Letellier;Souris sans fil;Informatique;20;754.65;15093.0;Grand Est;Chèque
+100436;14/04/2026;Letellier;Souris sans fil;Informatique;20;754.65;15093.0;Grand Est;Chèque
+100437;2025-01-07;François;Chaise ergonomique;Mobilier;9;526.58;4739.22;Île-de-France;
+100438;29/08/2026;Roussel Gillet SARL;Switch 8 ports;Réseau;14;649.49;9092.86;Auvergne-Rhône-Alpes;Chèque
+100439;2026-09-01;Joly Gallet SA;Souris sans fil;Informatique;1;461.99;461.99;Île-de-France;Chèque
+100440;2025-03-11;Vallet Guilbert S.A.S.;Ramette papier A4;Bureau;16;805.47;12887.52;Auvergne-Rhône-Alpes;Carte
+100441;2026-07-12;Joubert Chauveau S.A.;Clavier mécanique;Informatique;14;399.51;5593.14;Bretagne;Virement
+100442;2025-01-13;Techer;Lingettes écran;Consommables;30;785.53;23565.9;Bretagne;Prélèvement
+100443;2026-05-23;Martinez SA;Switch 8 ports;Réseau;36;836.81;30125.16;Auvergne-Rhône-Alpes;Carte
+100444;2026-05-31;Techer;Cartouche encre;Bureau;27;375.71;10144.17;Occitanie;Prélèvement
+100445;24/01/2025;Joubert Chauveau S.A.;Switch 8 ports;Réseau;19;62.31;1183.89;Île-de-France;Chèque
+100446;2026-07-25;Leconte Da Costa et Fils;"Écran 27""";Informatique;23;86.43;1987.89;Grand Est;Chèque
+100447;2025-07-26;Rey Bodin S.A.S.;Caisson tiroirs;Mobilier;20;289.5;5790.0;Grand Est;Chèque
+100448;2024-09-28;Joly Gallet SA;Chaise ergonomique;Mobilier;33;333.25;10997.25;Bretagne;Carte
+100449;2025-01-26;Rocher Briand SARL;Ordinateur portable;Informatique;28;565.0;15820.0;Auvergne-Rhône-Alpes;Carte
+100450;2026-04-04;Pottier Germain SA;Gobelets x100;Consommables;39;342.22;13346.58;Auvergne-Rhône-Alpes;Prélèvement
+100451;28/08/2026;Joly;Agrafeuse;Bureau;5;714.72;3573.6;Bretagne;Carte
+100452;25/05/2025;Guillon;Point d'accès WiFi;Réseau;22;413.62;9099.64;Occitanie;Chèque
+100453;2026-05-09;Pottier Germain SA;Ordinateur portable;Informatique;28;457.89;12820.92;Grand Est;Prélèvement
+100454;2026-09-01;Goncalves;Bureau assis-debout;Mobilier;37;679.6;25145.2;Occitanie;Prélèvement
+100455;2025-07-25;Roussel Gillet SARL;Ordinateur portable;Informatique;4;196.21;784.84;Bretagne;Chèque
+100456;2026-05-25;Vasseur;Bureau assis-debout;Mobilier;1;306.44;306.44;Auvergne-Rhône-Alpes;Virement
+100457;2026-02-11;Meunier;Café 1kg;Consommables;20;688.26;13765.2;Auvergne-Rhône-Alpes;Carte
+100458;2026-07-12;Joubert Chauveau S.A.;Souris sans fil;Informatique;7;550.25;3851.75;Bretagne;Carte
+100459;02/04/2026;Pinto Gillet SARL;Café 1kg;Consommables;3;40.77;153.91;Grand Est;Chèque
+100460;2026-05-31;Pottier Germain SA;Point d'accès WiFi;Réseau;13;425.53;5531.89;Grand Est;Carte
+100461;2025-03-20;Fischer Muller SA;"Écran 27""";;31;389.17;12064.27;Bretagne;Prélèvement
+100462;2025-04-04;Maury S.A.R.L.;Lingettes écran;Consommables;33;347.45;11465.85;Bretagne;Carte
+100463;2025-01-10;Guilbert S.A.;"Écran 27""";Informatique;11;688.14;7569.54;Bretagne;
+100464;13/05/2026;Joly Gallet SA;Switch 8 ports;Réseau;38;364.14;13837.32;Auvergne-Rhône-Alpes;Carte
+100465;2026-03-07;Pruvost;Bloc-notes;Bureau;13;179.91;2338.83;Occitanie;Carte
+100466;01/12/2024;Bertrand;Câble RJ45 5m;Réseau;7;744.43;5211.01;Bretagne;Carte
+100467;2025-07-03;Bègue Didier S.A.R.L.;Clavier mécanique;Informatique;9;333.88;3004.92;Bretagne;Virement
+100468;2026-07-18;Joly Gallet SA;Ramette papier A4;Bureau;28;655.64;18357.92;Île-de-France;Chèque
+100469;09/10/2024;Bègue Didier S.A.R.L.;Ordinateur portable;Informatique;39;752.31;29340.09;Auvergne-Rhône-Alpes;Virement
+100470;2026-07-07;Bègue Didier S.A.R.L.;Switch 8 ports;Réseau;22;212.76;4680.72;Bretagne;Carte
+100471;2025-09-09;Verdier;Bloc-notes;Bureau;35;451.59;15805.65;Occitanie;Virement
+100472;2025-02-28;Joly Gallet SA;Caisson tiroirs;Mobilier;37;430.93;15944.41;Île-de-France;Chèque
+100473;2025-02-11;Rocher Briand SARL;Point d'accès WiFi;Réseau;30;377.88;21459.08;Auvergne-Rhône-Alpes;Chèque
+100474;2026-06-05;Gillet SA;Cartouche encre;Bureau;17;276.32;4697.44;Grand Est;Carte
+100475;23/08/2026;Bègue Didier S.A.R.L.;Ordinateur portable;;32;542.7;17366.4;Occitanie;
+100476;01/09/2025;Robert;Point d'accès WiFi;Réseau;4;137.24;548.96;Île-de-France;Virement
+100477;2025-06-07;Guillon;Bloc-notes;Bureau;7;42.3;296.1;Île-de-France;Virement
+100478;04/05/2025;Pottier Germain SA;Câble RJ45 5m;;14;324.57;8653.03;Auvergne-Rhône-Alpes;Chèque
+100479;08/06/2026;Rocher Briand SARL;Souris sans fil;Informatique;38;172.16;6542.08;Auvergne-Rhône-Alpes;Chèque
+100480;2026-05-19;David Gomes S.A.R.L.;Gobelets x100;Consommables;9;678.26;6104.34;Auvergne-Rhône-Alpes;Prélèvement
+100481;2026-07-17;Roussel Gillet SARL;Ramette papier A4;Bureau;21;269.08;5650.68;Occitanie;Prélèvement
+100482;2025-03-04;Letellier;Caisson tiroirs;Mobilier;36;376.39;21986.99;Grand Est;Carte
+100483;01/03/2025;Robert;Ramette papier A4;Bureau;16;475.82;7613.12;Grand Est;
+100484;27/09/2024;Vasseur;Café 1kg;Consommables;4;689.26;2757.04;Île-de-France;Prélèvement
+100485;2026-02-03;Joly Gallet SA;Point d'accès WiFi;Réseau;5;623.28;3116.4;Auvergne-Rhône-Alpes;Prélèvement
+100486;2025-02-06;Joubert Chauveau S.A.;Souris sans fil;Informatique;35;528.39;18493.65;Grand Est;Chèque
+100487;2025-07-15;Bousquet;Souris sans fil;Informatique;3;598.58;1795.74;Bretagne;Prélèvement
+100488;2025-05-21;Guilbert S.A.;Bloc-notes;Bureau;20;183.76;3675.2;Auvergne-Rhône-Alpes;
+100489;2025-04-13;Moulin;Câble RJ45 5m;Réseau;3;365.04;1095.12;Bretagne;Chèque
+100490;2026-07-12;Joubert Chauveau S.A.;Agrafeuse;;25;578.11;14452.75;Bretagne;
+100491;2024-11-01;Goncalves;Câble RJ45 5m;Réseau;1;92.87;92.87;Grand Est;Chèque
+100492;2026-05-02;Raynaud et Fils;Point d'accès WiFi;Réseau;22;83.19;1830.18;Île-de-France;Virement
+100493;2025-04-13;Duhamel Wagner SARL;Clavier mécanique;;36;534.92;19257.12;Auvergne-Rhône-Alpes;Carte
+100494;2025-06-08;Bègue Didier S.A.R.L.;Gobelets x100;Consommables;33;651.54;21500.82;Auvergne-Rhône-Alpes;Carte
+100495;2026-01-20;Rey Bodin S.A.S.;Ramette papier A4;Bureau;31;175.34;5435.54;Grand Est;Prélèvement
+100496;2025-10-09;Robert;Agrafeuse;Bureau;39;96.96;3781.44;Île-de-France;Prélèvement
+100497;16/07/2025;Pottier Germain SA;Câble RJ45 5m;Réseau;33;722.83;23853.39;Grand Est;Chèque
+100498;2026-02-18;Regnier;Point d'accès WiFi;Réseau;8;47.75;382.0;Grand Est;Prélèvement
+100499;2026-06-26;Roussel Gillet SARL;Gobelets x100;Consommables;39;192.14;7493.46;Bretagne;Carte
+100500;2025-10-30;Raynaud et Fils;Ordinateur portable;Informatique;25;855.55;21388.75;Bretagne;Carte
+100501;2025-05-24;Vallet Guilbert S.A.S.;Switch 8 ports;Réseau;24;843.48;20243.52;Bretagne;Chèque
+100502;08/09/2026;Regnier;Câble RJ45 5m;Réseau;-4;109.26;2950.02;Bretagne;Virement
+100503;2024-09-30;Rey Bodin S.A.S.;Bloc-notes;Bureau;15;205.58;3083.7;Grand Est;Virement
+100504;2024-12-07;Roussel Gillet SARL;Ramette papier A4;Bureau;16;332.55;5320.8;Auvergne-Rhône-Alpes;Prélèvement
+100505;2026-07-22;Joly;Chaise ergonomique;Mobilier;38;812.44;30872.72;Auvergne-Rhône-Alpes;Chèque
+100506;30/03/2025;Monnier;Bureau assis-debout;Mobilier;25;622.07;15551.75;Île-de-France;Prélèvement
+100507;25/01/2025;David Gomes S.A.R.L.;Câble RJ45 5m;Réseau;7;340.8;3955.3;Grand Est;Chèque
+100508;2025-12-03;Hoareau SA;Agrafeuse;Bureau;1;307.07;307.07;Île-de-France;Chèque
+100509;2025-04-03;Letellier;Câble RJ45 5m;Réseau;2;157.29;314.58;Grand Est;Carte
+100510;2024-10-08;Verdier;Bureau assis-debout;Mobilier;10;580.08;5800.8;Auvergne-Rhône-Alpes;Carte
+100511;2024-12-02;Moulin;Caisson tiroirs;Mobilier;39;237.62;9267.18;Grand Est;Virement
+100512;2025-12-16;Raynaud et Fils;Câble RJ45 5m;;24;672.57;16141.68;Bretagne;Chèque
+100513;2025-08-12;Moulin;Cartouche encre;Bureau;19;91.76;1743.44;Île-de-France;Prélèvement
+100514;2025-06-04;Roussel Gillet SARL;Ramette papier A4;Bureau;26;676.41;17586.66;Auvergne-Rhône-Alpes;
+100515;28/03/2026;Raynaud et Fils;Clavier mécanique;;11;773.35;8506.85;Île-de-France;Prélèvement
+100516;2026-05-12;Duhamel Wagner SARL;Ramette papier A4;Bureau;12;70.91;850.92;Auvergne-Rhône-Alpes;Virement
+100517;2025-05-10;Gillet SA;Gobelets x100;Consommables;34;151.06;5136.04;Île-de-France;Carte
+100518;13/08/2025;Meunier;Point d'accès WiFi;Réseau;25;588.01;14700.25;Grand Est;Carte
+100519;2025-12-23;Maury S.A.R.L.;Lingettes écran;Consommables;20;367.36;7347.2;Occitanie;Prélèvement
+100520;2025-10-11;Leconte Da Costa et Fils;Bureau assis-debout;Mobilier;33;412.16;13601.28;Occitanie;Virement
+100521;2024-12-07;Goncalves;Ordinateur portable;Informatique;19;210.83;4005.77;Île-de-France;Carte
+100522;2025-07-05;François;Bloc-notes;Bureau;36;444.57;16004.52;Île-de-France;Carte
+100523;2026-08-08;Vasseur;"Écran 27""";Informatique;12;775.08;9300.96;Grand Est;Prélèvement
+100524;2025-11-30;Letellier;Bloc-notes;Bureau;36;207.05;7453.8;Grand Est;Chèque
+100525;2025-02-03;Roussel Gillet SARL;"Écran 27""";Informatique;28;309.66;8670.48;Bretagne;Virement
+100526;2025-03-25;Verdier;Switch 8 ports;Réseau;23;799.21;18381.83;Bretagne;
+100527;2024-10-13;Techer;"Écran 27""";;10;189.93;1899.3;Auvergne-Rhône-Alpes;Virement
+100528;2026-03-13;Pottier Germain SA;Lingettes écran;Consommables;33;518.23;17101.59;Auvergne-Rhône-Alpes;Carte
+100529;2025-08-13;Pinto Gillet SARL;Point d'accès WiFi;Réseau;14;719.28;10069.92;Île-de-France;Prélèvement
+100530;2024-09-10;Regnier;Souris sans fil;Informatique;7;732.9;5130.3;Île-de-France;Carte
+100531;17/10/2025;Bertrand;Point d'accès WiFi;Réseau;9;509.79;4588.11;Bretagne;Virement
+100532;2026-08-28;Bertrand;Bloc-notes;Bureau;27;355.89;9609.03;Île-de-France;Carte
+100533;2026-05-28;Meunier;Caisson tiroirs;Mobilier;16;64.96;1039.36;Auvergne-Rhône-Alpes;Carte
+100534;2025-11-01;Hoareau SA;Agrafeuse;Bureau;23;359.98;8279.54;Auvergne-Rhône-Alpes;Chèque
+100535;2026-02-24;Techer;Agrafeuse;Bureau;5;736.42;3682.1;Île-de-France;Carte
+100536;2026-03-21;Bègue Didier S.A.R.L.;Lingettes écran;Consommables;23;139.84;3216.32;Bretagne;Carte
+100537;2026-09-09;Robert;Lingettes écran;Consommables;15;604.92;9073.8;Occitanie;Chèque
+100538;2026-04-08;Bertrand;Souris sans fil;Informatique;16;788.41;12614.56;Occitanie;Prélèvement
+100539;2026-04-04;François;Ordinateur portable;Informatique;32;30.87;987.84;Grand Est;Prélèvement
+100540;2026-02-11;Leleu Charpentier SA;Point d'accès WiFi;Réseau;27;350.3;9458.1;Occitanie;Chèque
+100541;2025-02-09;Meunier;"Écran 27""";Informatique;20;208.49;4169.8;Occitanie;Chèque
+100542;18/06/2025;Robert;Point d'accès WiFi;Réseau;3;226.2;678.6;Île-de-France;Prélèvement
+100543;09/08/2025;Fischer Muller SA;Switch 8 ports;Réseau;13;891.8;11593.4;Occitanie;Chèque
+100544;2024-11-02;François;Bureau assis-debout;Mobilier;36;321.04;11557.44;Occitanie;Virement
+100545;2026-02-06;David Gomes S.A.R.L.;Agrafeuse;Bureau;33;124.72;4115.76;Occitanie;Prélèvement
+100546;2026-08-25;Meyer;Switch 8 ports;Réseau;28;500.43;14012.04;Occitanie;Carte
+100547;2025-05-23;Vasseur;Bureau assis-debout;Mobilier;32;477.6;15283.2;Île-de-France;Chèque
+100548;2026-01-06;Duhamel Wagner SARL;Switch 8 ports;Réseau;12;159.13;2321.6;Grand Est;Carte
+100549;2025-05-10;Pruvost;Caisson tiroirs;Mobilier;7;169.62;1187.34;Grand Est;Virement
+100550;06/02/2026;Joubert Chauveau S.A.;Switch 8 ports;Réseau;2;753.97;1836.86;Occitanie;Prélèvement
+100551;2026-06-29;Bègue Didier S.A.R.L.;Caisson tiroirs;Mobilier;36;629.19;22650.84;Occitanie;Chèque
+100552;2024-12-14;Joly;Bureau assis-debout;Mobilier;30;92.27;2768.1;Île-de-France;Virement
+100553;2026-03-22;Hoareau SA;Caisson tiroirs;Mobilier;20;608.46;12169.2;Grand Est;Prélèvement
+100554;09/08/2026;David Gomes S.A.R.L.;Ramette papier A4;Bureau;-7;798.91;9586.92;Auvergne-Rhône-Alpes;Prélèvement
+100555;2025-04-30;Monnier;Gobelets x100;Consommables;26;463.62;12054.12;Occitanie;Virement
+100556;2025-10-07;Martinez SA;Chaise ergonomique;Mobilier;31;574.74;17816.94;Auvergne-Rhône-Alpes;Virement
+100557;2025-05-07;Raynaud et Fils;Lingettes écran;Consommables;-2;486.17;4861.7;Occitanie;Carte
+100558;2026-02-08;Maury S.A.R.L.;Caisson tiroirs;Mobilier;28;666.37;18658.36;Grand Est;Prélèvement
+100559;2025-07-23;Monnier;Clavier mécanique;Informatique;21;319.25;6704.25;Bretagne;Prélèvement
+100560;2025-05-20;Verdier;Bloc-notes;Bureau;1;57.05;57.05;Bretagne;Virement
+100561;2025-07-18;Gillet SA;Ramette papier A4;Bureau;25;658.46;16461.5;Grand Est;Virement
+100562;04/03/2026;Bègue Didier S.A.R.L.;Ordinateur portable;Informatique;8;624.77;4998.16;Occitanie;Virement
+100563;2025-04-26;Meyer;Bureau assis-debout;Mobilier;21;537.86;11295.06;Île-de-France;Prélèvement
+100564;2025-11-13;Raynaud et Fils;Café 1kg;Consommables;27;50.54;1364.58;Grand Est;Prélèvement
+100565;2024-12-16;Techer;Point d'accès WiFi;Réseau;3;199.55;598.65;Occitanie;Chèque
+100552;2024-12-14;Joly;Bureau assis-debout;Mobilier;30;92.27;2768.1;Île-de-France;Virement
+100566;2025-02-05;Techer;Ordinateur portable;Informatique;34;417.59;14198.06;Bretagne;Chèque
+100567;2025-08-01;Monnier;Agrafeuse;Bureau;38;244.88;9305.44;Bretagne;Virement
+100568;2026-02-07;Hoareau SA;Souris sans fil;Informatique;15;395.54;5933.1;Bretagne;Virement
+100569;2026-09-09;Robert;Agrafeuse;Bureau;35;59.66;2088.1;Bretagne;Carte
+100570;2025-06-30;Hoareau SA;Gobelets x100;Consommables;11;733.91;8073.01;Occitanie;Prélèvement
+100571;2026-02-17;Leconte Da Costa et Fils;Bloc-notes;Bureau;19;389.65;7403.35;Île-de-France;Carte
+100572;13/04/2026;Leleu Charpentier SA;Câble RJ45 5m;Réseau;27;287.31;7757.37;Occitanie;
+100573;2026-08-11;Regnier;Switch 8 ports;Réseau;33;502.13;16570.29;Auvergne-Rhône-Alpes;Virement
+100574;2025-01-22;Techer;Gobelets x100;Consommables;35;20.19;706.65;Grand Est;Virement
+100575;2025-12-31;Rocher Briand SARL;Switch 8 ports;Réseau;5;362.37;1811.85;Occitanie;Virement
+100576;2025-11-25;Maury S.A.R.L.;Ordinateur portable;Informatique;8;495.61;3964.88;Occitanie;Chèque
+100577;30/04/2025;Laurent et Fils;Ramette papier A4;Bureau;16;847.35;16315.57;Bretagne;Virement
+100578;2025-07-21;Guillon;Ordinateur portable;Informatique;35;556.66;19483.1;Occitanie;Prélèvement
+100579;2025-11-08;Letellier;Café 1kg;Consommables;16;185.2;2963.2;Occitanie;
+100580;2026-06-18;Vallet Guilbert S.A.S.;"Écran 27""";Informatique;18;136.01;2448.18;Occitanie;Carte
+100581;2024-09-09;Letellier;Gobelets x100;Consommables;12;53.73;644.76;Auvergne-Rhône-Alpes;Chèque
+100582;2025-05-03;Rey Bodin S.A.S.;Lingettes écran;Consommables;35;480.98;16834.3;Île-de-France;Carte
+100583;19/04/2025;Robert;Ramette papier A4;Bureau;33;769.24;25384.92;Auvergne-Rhône-Alpes;Chèque
+100584;2025-02-19;Laurent et Fils;Lingettes écran;;22;146.62;3225.64;Bretagne;Virement
+100585;2025-08-08;Raynaud et Fils;Clavier mécanique;Informatique;10;530.16;5301.6;Auvergne-Rhône-Alpes;Chèque
+100586;2026-05-12;Pruvost;Bureau assis-debout;Mobilier;23;507.7;11677.1;Grand Est;Chèque
+100587;2025-12-03;Ledoux Marques SA;Gobelets x100;;29;79.13;2294.77;Bretagne;Virement
+100588;2025-12-24;Pruvost;Souris sans fil;Informatique;33;733.76;24214.08;Bretagne;Carte
+100589;2026-01-30;Ledoux Marques SA;Gobelets x100;;5;718.92;3594.6;Bretagne;Prélèvement
+100590;2025-05-17;David Gomes S.A.R.L.;Switch 8 ports;;4;134.86;539.44;Bretagne;Chèque
+100591;2025-09-05;Guilbert S.A.;"Écran 27""";Informatique;27;12.6;340.2;Bretagne;Prélèvement
+100592;2025-08-18;Letellier;Souris sans fil;Informatique;26;92.48;2404.48;Île-de-France;Carte
+100593;2025-08-18;Ledoux Marques SA;Câble RJ45 5m;Réseau;14;256.55;3591.7;Grand Est;Virement
+100239;2025-04-18;Pruvost;Chaise ergonomique;Mobilier;25;591.15;14778.75;Auvergne-Rhône-Alpes;Chèque
+100594;2026-02-15;Leconte Da Costa et Fils;Cartouche encre;Bureau;8;117.11;936.88;Grand Est;Chèque
+100595;2025-02-21;Leconte Da Costa et Fils;Caisson tiroirs;Mobilier;8;639.58;5116.64;Bretagne;
+100596;2025-10-11;Meyer;Clavier mécanique;Informatique;33;91.36;3014.88;Île-de-France;
+100597;2025-09-11;Joly Gallet SA;Café 1kg;Consommables;20;494.9;9898.0;Auvergne-Rhône-Alpes;Chèque
+100598;2026-05-18;François;Lingettes écran;Consommables;37;279.97;10358.89;Grand Est;Chèque
+100599;2026-08-09;Leconte Da Costa et Fils;"Écran 27""";Informatique;33;190.66;6291.78;Bretagne;Virement
+100600;2026-05-20;Bousquet;Lingettes écran;Consommables;25;221.88;5547.0;Île-de-France;Virement
+100601;03/04/2026;Bousquet;Bloc-notes;Bureau;26;101.45;2637.7;Bretagne;Prélèvement
+100602;2025-01-18;Meunier;Cartouche encre;Bureau;13;686.34;8922.42;Occitanie;Carte
+100603;2026-02-02;Vallet Guilbert S.A.S.;Point d'accès WiFi;Réseau;31;84.22;2610.82;Occitanie;Virement
+100604;2024-11-13;Pinto Gillet SARL;Cartouche encre;;14;427.87;5990.18;Île-de-France;Carte
+100605;2025-04-17;Rocher Briand SARL;Chaise ergonomique;;16;773.99;24073.04;Bretagne;Carte
+100606;2025-10-14;Joly Gallet SA;Caisson tiroirs;Mobilier;15;229.99;3449.85;Île-de-France;Prélèvement
+100607;2026-02-06;Goncalves;Clavier mécanique;Informatique;28;6.48;181.44;Occitanie;Chèque
+100608;2026-01-13;Joly;Câble RJ45 5m;Réseau;10;688.72;6887.2;Auvergne-Rhône-Alpes;Chèque
+100609;2026-01-02;Techer;Bloc-notes;Bureau;7;578.99;4052.93;Bretagne;Virement
+100610;2025-05-27;Maury S.A.R.L.;Bloc-notes;Bureau;20;584.31;11686.2;Bretagne;Chèque
+100611;2024-11-20;Goncalves;Câble RJ45 5m;Réseau;18;138.19;2487.42;Occitanie;Carte
+100612;2026-06-06;Hoareau SA;Agrafeuse;Bureau;32;221.54;7089.28;Auvergne-Rhône-Alpes;Carte
+100613;2026-04-15;Regnier;"Écran 27""";Informatique;36;165.38;5953.68;Île-de-France;Carte
+100614;2025-03-10;Letellier;Ramette papier A4;Bureau;21;734.56;15425.76;Île-de-France;Prélèvement
+100615;2026-02-13;Gillet SA;Souris sans fil;Informatique;26;550.64;14316.64;Bretagne;Carte
+100616;2025-05-08;Martinez SA;Ramette papier A4;Bureau;9;594.06;5346.54;Grand Est;Prélèvement
+100617;2025-03-02;Pruvost;Chaise ergonomique;Mobilier;37;409.35;15145.95;Bretagne;Prélèvement
+100618;2026-05-28;Joly;Bloc-notes;Bureau;-7;765.54;5358.78;Île-de-France;Carte
+100619;2025-02-10;Maury S.A.R.L.;Switch 8 ports;Réseau;11;352.47;3877.17;Île-de-France;Virement
+100620;2025-01-01;Vasseur;Point d'accès WiFi;Réseau;9;863.52;7771.68;Auvergne-Rhône-Alpes;Chèque
+100621;2024-09-27;Gillet SA;Clavier mécanique;;23;582.49;13397.27;Île-de-France;Prélèvement
+100622;2024-10-14;Rocher Briand SARL;Cartouche encre;;27;640.62;17296.74;Île-de-France;Carte
+100623;2025-03-18;Guilbert S.A.;Bureau assis-debout;;6;606.65;3639.9;Grand Est;Carte
+100624;2025-09-13;Gillet SA;Café 1kg;Consommables;36;299.46;10780.56;Île-de-France;Virement
+100625;2025-12-27;Leleu Charpentier SA;Café 1kg;;11;117.73;1295.03;Bretagne;Prélèvement
+100626;01/07/2026;Joly;"Écran 27""";Informatique;10;90.29;902.9;Auvergne-Rhône-Alpes;Chèque
+100290;2026-02-01;Goncalves;Caisson tiroirs;Mobilier;34;777.99;26451.66;Île-de-France;Carte
+100627;2026-04-28;Duhamel Wagner SARL;Caisson tiroirs;Mobilier;23;53.02;1219.46;Île-de-France;Carte
+100628;04/11/2024;Guilbert S.A.;"Écran 27""";;24;896.42;21514.08;Auvergne-Rhône-Alpes;Prélèvement
+100629;2025-08-28;Pinto Gillet SARL;Bureau assis-debout;Mobilier;2;641.12;1282.24;Auvergne-Rhône-Alpes;Virement
+100630;27/07/2025;Bousquet;Ramette papier A4;Bureau;7;319.77;2238.39;Auvergne-Rhône-Alpes;Virement
+100631;2026-07-29;Joly Gallet SA;Chaise ergonomique;Mobilier;2;53.11;106.22;Occitanie;Carte
+100632;2026-01-11;Letellier;Lingettes écran;Consommables;5;130.03;650.15;Île-de-France;Chèque
+100633;30/11/2025;Maury S.A.R.L.;Clavier mécanique;Informatique;10;171.33;1713.3;Grand Est;Chèque
+100634;2025-02-07;Leconte Da Costa et Fils;Bloc-notes;Bureau;26;640.26;16646.76;Occitanie;Chèque
+100635;20/03/2026;Bègue Didier S.A.R.L.;Ramette papier A4;Bureau;5;329.48;1647.4;Île-de-France;Chèque
+100636;2026-03-03;Rocher Briand SARL;Lingettes écran;Consommables;30;443.38;13301.4;Île-de-France;Virement
+100486;2025-02-06;Joubert Chauveau S.A.;Souris sans fil;Informatique;35;528.39;18493.65;Grand Est;Chèque
+100637;04/07/2025;Pinto Gillet SARL;Switch 8 ports;Réseau;37;777.94;28783.78;Occitanie;Carte
+100638;2025-09-27;Moulin;Ramette papier A4;Bureau;24;498.98;11975.52;Auvergne-Rhône-Alpes;Chèque
+100639;2025-07-16;Roussel Gillet SARL;Gobelets x100;Consommables;11;86.5;951.5;Occitanie;Prélèvement
+100640;2025-03-17;Joly;Caisson tiroirs;Mobilier;13;825.18;10727.34;Occitanie;Prélèvement
+100641;01/01/2025;Laurent et Fils;Câble RJ45 5m;Réseau;4;58.19;232.76;Grand Est;Virement
+100642;2026-01-31;Joubert Chauveau S.A.;Gobelets x100;Consommables;7;712.0;4984.0;Bretagne;Virement
+100643;2026-02-25;Barre;Point d'accès WiFi;Réseau;10;13.67;136.7;Île-de-France;Carte
+100644;2024-09-13;François;Switch 8 ports;Réseau;22;684.41;15057.02;Île-de-France;Virement
+100645;2026-08-03;Raynaud et Fils;Lingettes écran;Consommables;39;176.96;6901.44;Auvergne-Rhône-Alpes;Carte
+100646;15/04/2026;Martinez SA;"Écran 27""";Informatique;10;467.44;4674.4;Occitanie;Virement
+100647;2026-07-09;Letellier;Ordinateur portable;Informatique;18;257.81;4640.58;Bretagne;Carte
+100648;2026-04-30;Roussel Gillet SARL;Lingettes écran;Consommables;37;827.41;30614.17;Île-de-France;Virement
+100649;2026-07-28;Gillet SA;Câble RJ45 5m;Réseau;12;722.11;8665.32;Auvergne-Rhône-Alpes;Carte
+100650;2024-11-30;Roussel Gillet SARL;Souris sans fil;Informatique;20;245.29;6896.79;Bretagne;Virement
+100651;2026-05-06;Martinez SA;Bloc-notes;Bureau;4;279.26;1117.04;Île-de-France;Virement
+100652;2025-08-05;Raynaud et Fils;Ordinateur portable;Informatique;7;66.46;465.22;Grand Est;Carte
+100653;2025-02-25;Vasseur;Ordinateur portable;Informatique;20;687.54;13750.8;Auvergne-Rhône-Alpes;Virement
+100654;2025-01-23;Bousquet;Point d'accès WiFi;Réseau;13;578.21;7516.73;Occitanie;Chèque
+100655;2026-05-26;Verdier;Caisson tiroirs;Mobilier;8;480.96;5802.03;Grand Est;Virement
+100656;03/03/2026;Moulin;Gobelets x100;;19;249.52;4740.88;Île-de-France;Virement
+100657;16/10/2025;Monnier;Câble RJ45 5m;Réseau;2;380.11;760.22;Île-de-France;Carte
+100658;2025-09-04;Joubert Chauveau S.A.;Bureau assis-debout;Mobilier;25;521.97;13049.25;Auvergne-Rhône-Alpes;Carte
+100659;2024-10-18;Pottier Germain SA;Souris sans fil;Informatique;15;448.29;6724.35;Île-de-France;Virement
+100660;2025-11-15;Ledoux Marques SA;Souris sans fil;Informatique;19;231.83;4404.77;Île-de-France;Chèque
+100661;2025-03-21;Joly Gallet SA;Ramette papier A4;Bureau;36;24.9;896.4;Auvergne-Rhône-Alpes;Virement
+100662;2026-08-22;Vallet Guilbert S.A.S.;Souris sans fil;Informatique;32;492.36;15755.52;Occitanie;Carte
+100663;29/06/2026;Pinto Gillet SARL;Chaise ergonomique;Mobilier;8;93.4;747.2;Bretagne;Carte
+100664;2024-12-12;Hoareau SA;Ramette papier A4;Bureau;38;637.5;24225.0;Occitanie;Chèque
+100665;2025-08-29;Regnier;Bloc-notes;Bureau;37;764.2;28275.4;Occitanie;Virement
+100666;2024-12-21;Rocher Briand SARL;Souris sans fil;Informatique;19;25.53;485.07;Occitanie;Carte
+100667;2026-05-24;Fischer Muller SA;"Écran 27""";Informatique;14;795.05;11130.7;Grand Est;Chèque
+100668;04/09/2025;François;"Écran 27""";Informatique;29;143.53;4162.37;Bretagne;Chèque
+100669;2026-02-09;David Gomes S.A.R.L.;Caisson tiroirs;Mobilier;33;531.48;17538.84;Auvergne-Rhône-Alpes;Carte
+100670;2025-10-26;Martinez SA;Switch 8 ports;Réseau;21;36.77;772.17;Auvergne-Rhône-Alpes;Carte
+100671;2025-11-17;Roussel Gillet SARL;Cartouche encre;Bureau;23;433.59;9972.57;Île-de-France;Chèque
+100672;2025-12-15;Gillet SA;Switch 8 ports;;7;527.46;3692.22;Île-de-France;Carte
+100673;13/05/2025;Raynaud et Fils;Café 1kg;Consommables;23;583.37;13417.51;Auvergne-Rhône-Alpes;Carte
+100674;2026-04-18;Moulin;Souris sans fil;Informatique;21;769.94;16168.74;Auvergne-Rhône-Alpes;Chèque
+100675;2026-08-02;Laurent et Fils;Gobelets x100;Consommables;24;824.03;19776.72;Auvergne-Rhône-Alpes;Prélèvement
+100676;2025-08-18;Bègue Didier S.A.R.L.;"Écran 27""";Informatique;6;830.31;4981.86;Occitanie;Virement
+100677;2025-12-28;Leleu Charpentier SA;Caisson tiroirs;Mobilier;38;850.19;32307.22;Île-de-France;Carte
+100678;04/06/2026;Raynaud et Fils;Switch 8 ports;Réseau;16;876.75;14028.0;Auvergne-Rhône-Alpes;Chèque
+100679;2026-03-21;Joly Gallet SA;Point d'accès WiFi;Réseau;34;100.93;3431.62;Occitanie;Chèque
+100680;2026-08-02;Duhamel Wagner SARL;Switch 8 ports;Réseau;21;472.03;9912.63;Île-de-France;Prélèvement
+100681;2025-10-06;Fischer Muller SA;Point d'accès WiFi;Réseau;17;228.04;3876.68;Bretagne;Virement
+100682;06/08/2025;Rey Bodin S.A.S.;Gobelets x100;Consommables;39;461.03;17980.17;Occitanie;Carte
+100683;16/06/2026;Goncalves;Café 1kg;Consommables;17;708.53;12045.01;Île-de-France;Prélèvement
+100684;2026-08-14;Gillet SA;Bloc-notes;Bureau;20;593.79;11875.8;Auvergne-Rhône-Alpes;
+100685;2025-11-08;Maury S.A.R.L.;Agrafeuse;Bureau;27;790.87;21353.49;Occitanie;Prélèvement
+100686;2025-08-21;Roussel Gillet SARL;Gobelets x100;Consommables;8;886.18;7089.44;Bretagne;Virement
+100687;06/08/2026;Gillet SA;Clavier mécanique;Informatique;39;291.46;11366.94;Occitanie;Chèque
+100688;2025-01-10;Vasseur;Cartouche encre;Bureau;30;38.31;1149.3;Île-de-France;Prélèvement
+100689;2026-04-09;Raynaud et Fils;"Écran 27""";Informatique;1;681.38;681.38;Grand Est;Prélèvement
+100690;10/07/2026;Roussel Gillet SARL;Clavier mécanique;Informatique;32;2.89;92.48;Île-de-France;Prélèvement
+100691;12/09/2025;Vallet Guilbert S.A.S.;Lingettes écran;Consommables;-3;812.27;9747.24;Île-de-France;Prélèvement
+100692;2025-08-24;David Gomes S.A.R.L.;Cartouche encre;Bureau;19;8.03;152.57;Bretagne;Prélèvement
+100693;2025-03-29;Goncalves;Souris sans fil;Informatique;3;272.53;817.59;Bretagne;Prélèvement
+100694;2026-04-15;Hoareau SA;Câble RJ45 5m;Réseau;20;497.99;12534.85;Auvergne-Rhône-Alpes;Chèque
+100695;2025-03-20;Duhamel Wagner SARL;Gobelets x100;Consommables;32;818.33;26186.56;Auvergne-Rhône-Alpes;Chèque
+100696;2026-06-23;Joubert Chauveau S.A.;Cartouche encre;Bureau;14;754.81;10567.34;Occitanie;Chèque
+100697;2026-01-17;Raynaud et Fils;Clavier mécanique;Informatique;9;672.03;6048.27;Bretagne;Carte
+100698;2025-04-12;Laurent et Fils;Agrafeuse;Bureau;39;770.65;30055.35;Auvergne-Rhône-Alpes;Virement
+100699;2026-04-26;Joubert Chauveau S.A.;Caisson tiroirs;Mobilier;10;682.95;6829.5;Occitanie;Prélèvement
+100700;2026-05-06;Roussel Gillet SARL;Câble RJ45 5m;Réseau;38;2.58;98.04;Grand Est;Chèque
+100701;2025-10-18;Verdier;Clavier mécanique;Informatique;29;729.32;21150.28;Occitanie;Carte
+100702;2025-09-20;Joubert Chauveau S.A.;Caisson tiroirs;;24;889.17;21340.08;Occitanie;Prélèvement
+100703;2026-01-08;Goncalves;Point d'accès WiFi;Réseau;36;156.61;5637.96;Grand Est;
+100395;2026-03-11;Techer;Ramette papier A4;Bureau;29;848.43;24604.47;Île-de-France;Virement
+100704;2025-03-13;Bègue Didier S.A.R.L.;Bureau assis-debout;Mobilier;24;100.47;2411.28;Bretagne;Chèque
+100705;2025-04-10;Martinez SA;Câble RJ45 5m;Réseau;27;139.87;3776.49;Grand Est;Carte
+100706;2025-08-16;Laurent et Fils;Chaise ergonomique;Mobilier;39;427.18;16660.02;Bretagne;Chèque
+100707;2024-11-08;Robert;Bloc-notes;Bureau;24;533.77;12810.48;Auvergne-Rhône-Alpes;Carte
+100708;2026-03-17;Leleu Charpentier SA;Bloc-notes;Bureau;29;797.53;23128.37;Île-de-France;Carte
+100709;18/04/2025;Verdier;Gobelets x100;Consommables;17;897.89;15264.13;Auvergne-Rhône-Alpes;Prélèvement
+100710;2025-03-10;Roussel Gillet SARL;Caisson tiroirs;Mobilier;26;310.95;8084.7;Auvergne-Rhône-Alpes;Carte
+100711;2025-04-08;Verdier;Souris sans fil;Informatique;37;833.41;30836.17;Occitanie;Chèque
+100712;2025-05-27;Fischer Muller SA;Caisson tiroirs;Mobilier;24;814.25;19542.0;Auvergne-Rhône-Alpes;Prélèvement
+100121;2025-06-26;Bègue Didier S.A.R.L.;Lingettes écran;Consommables;18;104.47;1880.46;Grand Est;Carte
+100713;2025-05-15;Bègue Didier S.A.R.L.;Bloc-notes;Bureau;31;435.65;13505.15;Auvergne-Rhône-Alpes;Carte
+100714;2026-08-03;Rey Bodin S.A.S.;Souris sans fil;Informatique;39;277.73;10831.47;Auvergne-Rhône-Alpes;Carte
+100715;2025-11-02;François;Bureau assis-debout;Mobilier;6;232.49;1394.94;Île-de-France;Virement
+100716;2024-11-10;David Gomes S.A.R.L.;Souris sans fil;Informatique;25;362.73;9068.25;Auvergne-Rhône-Alpes;Prélèvement
+100717;2024-12-25;Bertrand;Point d'accès WiFi;Réseau;39;436.82;17035.98;Auvergne-Rhône-Alpes;Carte
+100718;04/01/2025;Gillet SA;Caisson tiroirs;Mobilier;3;725.78;2177.34;Auvergne-Rhône-Alpes;Virement
+100719;2025-03-07;Bègue Didier S.A.R.L.;Caisson tiroirs;Mobilier;23;794.8;18280.4;Auvergne-Rhône-Alpes;Carte
+100720;2025-07-03;Rey Bodin S.A.S.;Café 1kg;Consommables;11;452.09;4972.99;Occitanie;Prélèvement
+100721;2026-03-02;Rey Bodin S.A.S.;Café 1kg;Consommables;20;223.34;4466.8;Auvergne-Rhône-Alpes;Virement
+100722;2025-01-05;Gillet SA;Agrafeuse;Bureau;16;554.29;8868.64;Grand Est;Chèque
+100723;2026-03-11;Barre;Caisson tiroirs;Mobilier;18;145.45;2618.1;Auvergne-Rhône-Alpes;Prélèvement
+100724;2025-02-22;Meyer;Bureau assis-debout;Mobilier;10;406.92;4069.2;Occitanie;Chèque
+100725;2024-10-28;Meunier;Agrafeuse;;31;605.85;18781.35;Île-de-France;Virement
+100726;2025-07-28;Letellier;Ramette papier A4;Bureau;30;539.77;16193.1;Occitanie;Chèque
+100314;2024-09-16;Roussel Gillet SARL;Bureau assis-debout;Mobilier;18;497.84;8961.12;Grand Est;Virement
+100727;2025-07-22;François;Ramette papier A4;Bureau;23;196.55;4520.65;Occitanie;Chèque
+100728;2025-05-24;Moulin;Café 1kg;;28;734.62;20569.36;Occitanie;Virement
+100729;2025-11-04;Barre;Lingettes écran;Consommables;11;351.62;3867.82;Occitanie;Prélèvement
+100730;2025-09-05;Pruvost;Café 1kg;Consommables;37;279.71;12868.62;Bretagne;Carte
+100731;2025-07-28;Guilbert S.A.;Switch 8 ports;;20;376.51;7530.2;Occitanie;Virement
+100732;2024-10-27;Joly;Ramette papier A4;Bureau;36;801.23;28844.28;Auvergne-Rhône-Alpes;Virement
+100733;2025-02-16;Pruvost;Cartouche encre;Bureau;14;117.47;1644.58;Île-de-France;Chèque
+100734;2026-06-17;Goncalves;Câble RJ45 5m;Réseau;33;268.04;8845.32;Grand Est;Prélèvement
+100735;2025-08-01;Ledoux Marques SA;Lingettes écran;Consommables;15;515.22;7728.3;Grand Est;Virement
+100736;2025-07-08;Guilbert S.A.;Clavier mécanique;Informatique;1;384.29;384.29;Île-de-France;Virement
+100737;2026-08-12;Gillet SA;Café 1kg;Consommables;24;857.15;20571.6;Auvergne-Rhône-Alpes;Carte
+100738;2026-04-29;Goncalves;Café 1kg;;10;84.85;848.5;Auvergne-Rhône-Alpes;Prélèvement
+100739;06/12/2025;Meyer;Câble RJ45 5m;Réseau;12;44.55;534.6;Île-de-France;Carte
+100740;2026-03-03;Robert;Lingettes écran;Consommables;4;517.5;2070.0;Occitanie;Virement
+100741;2024-09-24;Gillet SA;Ordinateur portable;Informatique;26;603.74;15697.24;Grand Est;Chèque
+100742;2026-07-06;Pottier Germain SA;Lingettes écran;Consommables;8;893.04;7144.32;Grand Est;Prélèvement
+100743;2026-07-25;Pinto Gillet SARL;Point d'accès WiFi;Réseau;15;722.02;10830.3;Occitanie;Carte
+100744;2026-04-26;Fischer Muller SA;Clavier mécanique;Informatique;23;766.23;17623.29;Bretagne;Prélèvement
+100745;2025-11-30;Letellier;Lingettes écran;Consommables;34;225.53;7668.02;Île-de-France;Prélèvement
+100746;2025-07-01;Joly;Caisson tiroirs;Mobilier;9;517.03;4653.27;Grand Est;Virement
+100747;2025-09-14;Rocher Briand SARL;Lingettes écran;Consommables;9;652.81;5875.29;Bretagne;
+100748;2024-09-13;Vasseur;Café 1kg;Consommables;19;771.13;14651.47;Île-de-France;Virement
+100749;2025-06-09;Rocher Briand SARL;Clavier mécanique;Informatique;8;789.0;6312.0;Occitanie;Virement
+100750;2025-04-28;Fischer Muller SA;Switch 8 ports;Réseau;30;406.76;12202.8;Bretagne;Carte
+100751;2026-04-17;Rocher Briand SARL;Cartouche encre;Bureau;19;251.78;4783.82;Auvergne-Rhône-Alpes;Virement
+100752;2025-07-08;Gillet SA;Souris sans fil;Informatique;19;81.37;1546.03;Grand Est;Virement
+100753;2026-07-03;Fischer Muller SA;Caisson tiroirs;Mobilier;33;304.61;10052.13;Auvergne-Rhône-Alpes;Chèque
+100754;2026-08-02;Letellier;Lingettes écran;Consommables;15;613.25;9198.75;Occitanie;Prélèvement
+100755;2026-06-20;Joubert Chauveau S.A.;Cartouche encre;Bureau;20;72.28;1445.6;Île-de-France;Prélèvement
+100756;2025-07-31;Duhamel Wagner SARL;Café 1kg;Consommables;20;839.82;16796.4;Auvergne-Rhône-Alpes;Chèque
+100757;2025-11-01;Letellier;Lingettes écran;Consommables;8;116.84;934.72;Bretagne;Chèque
+100758;2026-04-12;Ledoux Marques SA;Ordinateur portable;Informatique;27;22.92;618.84;Île-de-France;Chèque
+100759;2026-04-02;Monnier;Clavier mécanique;Informatique;22;700.97;15421.34;Île-de-France;Carte
+100101;2025-09-13;Ledoux Marques SA;Bloc-notes;Bureau;10;753.97;7539.7;Île-de-France;Virement
+100760;2025-11-07;Pruvost;Ordinateur portable;Informatique;11;282.52;3107.72;Auvergne-Rhône-Alpes;Virement
+100761;2026-05-23;Leconte Da Costa et Fils;Ordinateur portable;Informatique;18;567.37;10212.66;Auvergne-Rhône-Alpes;Prélèvement
+100762;21/12/2025;Rey Bodin S.A.S.;Câble RJ45 5m;Réseau;33;508.54;16781.82;Bretagne;Carte
+100763;2026-08-07;Hoareau SA;Cartouche encre;Bureau;39;253.28;17187.0;Grand Est;Prélèvement
+100764;27/02/2025;Monnier;Lingettes écran;Consommables;17;485.43;8252.31;Occitanie;Chèque
+100765;2025-09-23;Rocher Briand SARL;Agrafeuse;;12;296.4;4616.47;Bretagne;Chèque
+100766;2025-02-26;Goncalves;Gobelets x100;Consommables;17;373.54;6350.18;Auvergne-Rhône-Alpes;Carte
+100767;2025-04-08;Raynaud et Fils;"Écran 27""";Informatique;28;37.87;1060.36;Occitanie;Carte
+100768;2025-08-13;Monnier;Agrafeuse;Bureau;34;588.06;19994.04;Île-de-France;Prélèvement
+100769;2025-09-21;Pinto Gillet SARL;Câble RJ45 5m;Réseau;15;635.49;9532.35;Île-de-France;Carte
+100770;2024-10-01;Meyer;Bureau assis-debout;Mobilier;20;331.34;6626.8;Occitanie;Chèque
+100771;2025-07-08;François;Ramette papier A4;Bureau;15;394.91;5923.65;Occitanie;Virement
+100772;2025-05-28;Moulin;"Écran 27""";Informatique;32;608.97;19487.04;Auvergne-Rhône-Alpes;Prélèvement
+100773;2026-02-10;Roussel Gillet SARL;Chaise ergonomique;Mobilier;11;233.13;2564.43;Bretagne;Carte
+100774;18/02/2026;Pruvost;"Écran 27""";Informatique;33;102.15;3370.95;Occitanie;Prélèvement
+100775;21/05/2026;Laurent et Fils;Gobelets x100;Consommables;9;857.73;7719.57;Grand Est;Carte
+100776;2025-07-20;Joly;Agrafeuse;Bureau;21;642.17;13485.57;Auvergne-Rhône-Alpes;Prélèvement
+100777;2026-03-25;Guillon;Ramette papier A4;Bureau;23;764.75;17589.25;Occitanie;Carte
+100778;2025-01-15;Leconte Da Costa et Fils;Chaise ergonomique;Mobilier;33;465.24;15352.92;Grand Est;Prélèvement
+100779;23/06/2026;Ledoux Marques SA;Câble RJ45 5m;Réseau;29;361.26;10476.54;Occitanie;Virement
+100780;2025-09-07;François;Chaise ergonomique;;29;634.98;18414.42;Île-de-France;
+100781;2026-08-24;François;Caisson tiroirs;Mobilier;4;793.35;3173.4;Bretagne;Prélèvement
+100782;2024-12-17;Techer;Clavier mécanique;Informatique;2;779.16;1558.32;Occitanie;Carte
+100783;2026-01-05;Fischer Muller SA;"Écran 27""";;16;491.28;7860.48;Bretagne;Carte
+100784;2025-10-28;Bègue Didier S.A.R.L.;Chaise ergonomique;Mobilier;34;312.71;10632.14;Île-de-France;Virement
+100785;29/09/2024;Leleu Charpentier SA;Agrafeuse;Bureau;10;746.13;7461.3;Île-de-France;Prélèvement
+100786;14/08/2026;Bousquet;Gobelets x100;Consommables;31;460.13;14264.03;Bretagne;Carte
+100787;2025-07-12;Gillet SA;"Écran 27""";Informatique;18;584.89;10528.02;Bretagne;Virement
+100788;2025-12-12;Vasseur;Ramette papier A4;Bureau;37;173.41;6416.17;Grand Est;Virement
+100789;2025-11-21;Pruvost;Bloc-notes;Bureau;13;83.84;1089.92;Grand Est;Carte
+100790;2026-02-05;Letellier;"Écran 27""";Informatique;14;850.04;11900.56;Île-de-France;Virement
+100791;30/09/2024;Guillon;Clavier mécanique;Informatique;8;852.33;6818.64;Île-de-France;Carte
+100792;2024-11-13;Rey Bodin S.A.S.;Cartouche encre;Bureau;21;625.93;13144.53;Grand Est;Carte
+100793;2026-01-21;Verdier;Ramette papier A4;Bureau;17;144.03;2448.51;Île-de-France;Virement
+100794;2025-08-07;Rey Bodin S.A.S.;Lingettes écran;Consommables;23;470.65;10824.95;Occitanie;Virement
+100795;2024-12-23;Joly Gallet SA;Café 1kg;Consommables;36;127.18;4578.48;Grand Est;Chèque
+100796;2026-07-14;Hoareau SA;Ramette papier A4;Bureau;24;523.96;12575.04;Île-de-France;Carte
+100797;2025-09-02;Pruvost;Ramette papier A4;Bureau;17;421.14;7159.38;Occitanie;Prélèvement
+100798;2025-01-28;Regnier;Point d'accès WiFi;Réseau;22;74.45;1637.9;Île-de-France;Virement
+100799;2024-10-18;Maury S.A.R.L.;Ramette papier A4;Bureau;27;408.97;11042.19;Île-de-France;Virement
+100800;2025-03-30;Barre;Lingettes écran;Consommables;11;766.98;8436.78;Auvergne-Rhône-Alpes;Chèque
+100801;2025-06-30;Verdier;Chaise ergonomique;Mobilier;3;138.91;416.73;Auvergne-Rhône-Alpes;Chèque
+100802;21/05/2025;Guilbert S.A.;Cartouche encre;Bureau;39;836.93;32640.27;Occitanie;Chèque
+100803;20/02/2025;Rocher Briand SARL;Agrafeuse;Bureau;26;408.59;10623.34;Auvergne-Rhône-Alpes;Chèque
+100804;2025-08-28;Vasseur;Switch 8 ports;;39;284.76;11105.64;Bretagne;Prélèvement
+100805;2025-05-20;Leconte Da Costa et Fils;Bloc-notes;Bureau;17;597.3;10154.1;Bretagne;Prélèvement
+100806;2025-05-29;Barre;Agrafeuse;Bureau;8;577.06;4616.48;Grand Est;Virement
+100807;2026-04-23;Ledoux Marques SA;"Écran 27""";Informatique;26;762.46;19823.96;Île-de-France;Prélèvement
+100808;2026-07-24;Pottier Germain SA;Câble RJ45 5m;Réseau;21;123.48;2593.08;Bretagne;Carte
+100809;2025-06-30;Robert;Chaise ergonomique;Mobilier;26;240.04;6241.04;Île-de-France;Chèque
+100810;2025-04-13;Leconte Da Costa et Fils;Caisson tiroirs;Mobilier;8;493.36;3946.88;Bretagne;Prélèvement
+100811;2026-04-16;Meyer;Bloc-notes;Bureau;8;858.17;6865.36;Occitanie;Prélèvement
+100812;2026-06-17;Joubert Chauveau S.A.;Caisson tiroirs;Mobilier;29;147.07;4265.03;Auvergne-Rhône-Alpes;Virement
+100813;2025-08-02;Meyer;Souris sans fil;Informatique;26;626.3;16283.8;Grand Est;Virement
+100814;2025-03-23;Monnier;Gobelets x100;Consommables;16;378.85;6061.6;Île-de-France;Virement
+100815;2026-06-19;Monnier;Câble RJ45 5m;Réseau;18;517.44;9313.92;Grand Est;Carte
+100816;2024-11-11;Rocher Briand SARL;"Écran 27""";Informatique;14;656.89;9196.46;Occitanie;Chèque
+100817;09/09/2025;Leleu Charpentier SA;Point d'accès WiFi;Réseau;12;556.09;6673.08;Bretagne;Virement
+100818;2024-09-24;Pottier Germain SA;Chaise ergonomique;Mobilier;30;752.66;22579.8;Île-de-France;Virement
+100819;2026-04-13;Bousquet;Cartouche encre;Bureau;9;560.37;5043.33;Occitanie;Prélèvement
+100820;2025-11-01;Leconte Da Costa et Fils;Chaise ergonomique;Mobilier;23;504.63;17126.58;Auvergne-Rhône-Alpes;Prélèvement
+100821;2024-10-19;Joubert Chauveau S.A.;Café 1kg;Consommables;38;655.63;24913.94;Occitanie;Chèque
+100822;2025-06-07;Duhamel Wagner SARL;Cartouche encre;Bureau;25;694.19;21498.99;Auvergne-Rhône-Alpes;Prélèvement
+100823;2025-03-02;Bousquet;Cartouche encre;Bureau;34;778.93;26483.62;Occitanie;Carte
+100824;2026-01-26;David Gomes S.A.R.L.;Lingettes écran;Consommables;22;798.56;17568.32;Occitanie;Prélèvement
+100825;2024-11-01;Fischer Muller SA;Café 1kg;Consommables;2;432.39;864.78;Occitanie;Prélèvement
+100826;2026-05-08;Monnier;Lingettes écran;;31;385.83;11960.73;Île-de-France;
+100827;2026-01-28;Fischer Muller SA;Ramette papier A4;Bureau;5;770.66;3853.3;Île-de-France;Prélèvement
+100828;2024-10-10;Leleu Charpentier SA;Gobelets x100;Consommables;1;32.07;32.07;Occitanie;Carte
+100829;2026-04-17;Moulin;Chaise ergonomique;Mobilier;3;621.99;1865.97;Île-de-France;Carte
+100830;2024-10-03;Leleu Charpentier SA;Switch 8 ports;Réseau;20;395.35;12392.97;Bretagne;
+100831;2025-03-20;Joly;Ordinateur portable;Informatique;17;65.84;1119.28;Auvergne-Rhône-Alpes;Virement
+100832;2025-02-10;Meyer;Gobelets x100;Consommables;25;774.29;19357.25;Île-de-France;Chèque
+100833;2026-06-22;Laurent et Fils;Ordinateur portable;;28;364.93;10218.04;Bretagne;Carte
+100834;2024-09-24;Joubert Chauveau S.A.;Point d'accès WiFi;Réseau;8;896.11;7168.88;Bretagne;Prélèvement
+100835;2026-01-04;Goncalves;Clavier mécanique;Informatique;14;887.3;12422.2;Bretagne;Prélèvement
+100836;2025-01-05;Rey Bodin S.A.S.;Clavier mécanique;Informatique;31;630.08;19532.48;Occitanie;Prélèvement
+100837;13/03/2025;Martinez SA;Point d'accès WiFi;Réseau;26;122.26;3178.76;Grand Est;Carte
+100838;2024-12-16;Joubert Chauveau S.A.;Ramette papier A4;Bureau;17;498.02;8466.34;Grand Est;Carte
+100839;2025-09-11;Martinez SA;Câble RJ45 5m;Réseau;37;796.38;29466.06;Grand Est;Virement
+100840;2026-02-10;François;Café 1kg;Consommables;3;97.02;291.06;Île-de-France;Chèque
+100841;2024-12-06;Vasseur;Point d'accès WiFi;Réseau;9;57.34;516.06;Bretagne;Virement
+100842;21/11/2025;Barre;Lingettes écran;Consommables;10;405.52;6329.97;Occitanie;Chèque
+100843;2025-02-25;Raynaud et Fils;Ordinateur portable;Informatique;4;65.91;263.64;Auvergne-Rhône-Alpes;Chèque
+100844;2025-09-05;Laurent et Fils;Chaise ergonomique;Mobilier;12;302.35;3628.2;Grand Est;Virement
+100845;2026-03-06;Goncalves;Caisson tiroirs;Mobilier;28;160.46;4492.88;Occitanie;Carte
+100846;2025-03-27;Moulin;Lingettes écran;Consommables;27;659.62;17809.74;Bretagne;Virement
+100847;2026-04-27;Bertrand;Chaise ergonomique;Mobilier;19;781.6;14850.4;Bretagne;Chèque
+100848;2025-06-22;Duhamel Wagner SARL;Lingettes écran;Consommables;39;429.7;16758.3;Occitanie;
+100849;2025-01-17;Bègue Didier S.A.R.L.;Chaise ergonomique;Mobilier;18;20.67;372.06;Bretagne;Prélèvement
+100850;2025-12-23;Rey Bodin S.A.S.;Cartouche encre;Bureau;11;169.71;1866.81;Île-de-France;Prélèvement
+100851;2025-12-24;Moulin;Café 1kg;Consommables;33;419.72;13850.76;Grand Est;Carte
+100852;2026-04-12;Meunier;Caisson tiroirs;Mobilier;29;256.26;7431.54;Grand Est;Chèque
+100853;2026-03-20;Regnier;Gobelets x100;Consommables;13;734.32;9546.16;Île-de-France;Prélèvement
+100854;2024-12-06;Verdier;Caisson tiroirs;Mobilier;19;726.62;13805.78;Île-de-France;Virement
+100855;2026-05-06;Regnier;Switch 8 ports;Réseau;20;771.35;15427.0;Occitanie;Chèque
+100856;07/06/2026;Barre;Switch 8 ports;Réseau;39;554.73;21634.47;Île-de-France;Prélèvement
+100857;2025-01-14;Joly;Switch 8 ports;Réseau;36;196.32;7067.52;Grand Est;
+100858;2025-05-08;Joly Gallet SA;Ordinateur portable;Informatique;11;69.28;762.08;Occitanie;Prélèvement
+100859;2024-12-01;Hoareau SA;Bureau assis-debout;Mobilier;9;531.18;4780.62;Auvergne-Rhône-Alpes;Chèque
+100860;2025-12-02;Joubert Chauveau S.A.;Câble RJ45 5m;Réseau;10;897.59;8975.9;Bretagne;Virement
+100861;2024-09-28;Roussel Gillet SARL;Ramette papier A4;Bureau;16;311.14;4978.24;Île-de-France;Chèque
+100862;2026-08-31;David Gomes S.A.R.L.;Clavier mécanique;Informatique;35;234.21;8197.35;Auvergne-Rhône-Alpes;Virement
+100863;2025-05-09;Vallet Guilbert S.A.S.;Bureau assis-debout;Mobilier;18;709.5;12771.0;Bretagne;Carte
+100864;30/11/2025;Roussel Gillet SARL;Caisson tiroirs;Mobilier;36;557.45;20068.2;Grand Est;Virement
+100865;2026-02-17;Joly Gallet SA;Câble RJ45 5m;Réseau;13;667.82;8681.66;Auvergne-Rhône-Alpes;Prélèvement
+100866;2026-08-15;Vallet Guilbert S.A.S.;Switch 8 ports;;26;62.72;1630.72;Île-de-France;Prélèvement
+100867;2025-06-27;Laurent et Fils;Café 1kg;Consommables;11;24.4;268.4;Occitanie;Prélèvement
+100868;2025-07-14;Martinez SA;Switch 8 ports;Réseau;1;512.56;512.56;Occitanie;Chèque
+100869;2026-03-18;Pottier Germain SA;Bloc-notes;Bureau;39;789.7;30798.3;Occitanie;Prélèvement
+100870;10/02/2025;Joly Gallet SA;Chaise ergonomique;Mobilier;39;591.05;23050.95;Occitanie;Prélèvement
+100871;2024-11-07;Letellier;Agrafeuse;Bureau;34;283.87;9651.58;Bretagne;Chèque
+100872;2025-12-12;Leleu Charpentier SA;Café 1kg;Consommables;30;594.2;17826.0;Grand Est;Chèque
+100873;27/02/2026;Verdier;Chaise ergonomique;Mobilier;16;530.72;8491.52;Bretagne;Carte
+100874;2026-06-16;Martinez SA;"Écran 27""";Informatique;35;461.81;16163.35;Grand Est;Chèque
+100875;2026-01-09;Joubert Chauveau S.A.;Ramette papier A4;Bureau;17;177.33;3014.61;Auvergne-Rhône-Alpes;Virement
+100876;2025-03-16;Ledoux Marques SA;Câble RJ45 5m;Réseau;31;204.12;6327.72;Île-de-France;
+100877;2024-11-27;Ledoux Marques SA;Caisson tiroirs;Mobilier;20;140.51;2810.2;Île-de-France;Chèque
+100878;2026-03-04;Pottier Germain SA;Chaise ergonomique;Mobilier;5;468.0;2340.0;Île-de-France;Carte
+100879;2026-05-02;Vasseur;Bureau assis-debout;Mobilier;24;681.35;16352.4;Grand Est;Prélèvement
+100880;2025-05-01;Pinto Gillet SARL;Lingettes écran;Consommables;31;19.44;602.64;Bretagne;Carte
+100881;2026-07-01;Joly;Câble RJ45 5m;Réseau;22;339.29;7464.38;Bretagne;Virement
+100882;2026-02-22;Joly Gallet SA;Bureau assis-debout;Mobilier;26;668.76;17387.76;Bretagne;Carte
+100883;19/12/2025;Leleu Charpentier SA;Point d'accès WiFi;Réseau;38;14.55;552.9;Bretagne;Chèque
+100884;2026-05-27;Vasseur;Cartouche encre;Bureau;26;553.01;23498.38;Auvergne-Rhône-Alpes;Chèque
+100885;2024-12-12;Vasseur;Cartouche encre;Bureau;22;126.02;2772.44;Auvergne-Rhône-Alpes;Virement
+100886;2026-05-20;Joly;Switch 8 ports;Réseau;32;748.56;32086.6;Bretagne;Chèque
+100887;2025-11-22;Duhamel Wagner SARL;Clavier mécanique;Informatique;32;214.19;6854.08;Auvergne-Rhône-Alpes;Carte
+100888;2026-05-09;Ledoux Marques SA;Chaise ergonomique;Mobilier;11;790.37;8694.07;Occitanie;Virement
+100889;2024-10-10;Bertrand;Câble RJ45 5m;Réseau;27;441.44;11918.88;Bretagne;Virement
+100890;2025-06-05;Letellier;Souris sans fil;;23;588.76;13541.48;Auvergne-Rhône-Alpes;Chèque
+100891;27/10/2025;Rey Bodin S.A.S.;Cartouche encre;Bureau;27;526.49;14215.23;Bretagne;Prélèvement
+100892;2025-08-07;Regnier;Gobelets x100;Consommables;26;295.8;7690.8;Bretagne;Virement
+100893;2026-02-04;Guilbert S.A.;Switch 8 ports;Réseau;24;593.36;14240.64;Grand Est;Virement
+100894;23/06/2025;Meyer;Souris sans fil;Informatique;37;583.81;21600.97;Grand Est;Carte
+100895;2024-11-01;Leleu Charpentier SA;Clavier mécanique;Informatique;15;215.58;3233.7;Occitanie;
+100896;2025-10-06;Monnier;Bureau assis-debout;Mobilier;35;711.79;24912.65;Auvergne-Rhône-Alpes;Prélèvement
+100897;2026-01-24;David Gomes S.A.R.L.;Café 1kg;Consommables;13;102.67;1334.71;Bretagne;Chèque
+100898;01/06/2025;Bègue Didier S.A.R.L.;Câble RJ45 5m;Réseau;34;896.52;30481.68;Île-de-France;Carte
+100899;2024-09-18;Verdier;"Écran 27""";Informatique;39;445.53;17375.67;Île-de-France;Prélèvement
+100900;2026-06-30;Techer;Chaise ergonomique;Mobilier;27;557.03;15039.81;Île-de-France;Virement
+100901;2025-08-01;Regnier;Bureau assis-debout;Mobilier;31;170.57;5287.67;Île-de-France;Carte
+100902;09/06/2026;Fischer Muller SA;Gobelets x100;;31;789.93;24487.83;Occitanie;Virement
+100903;2025-09-24;Hoareau SA;Cartouche encre;Bureau;26;270.09;7022.34;Grand Est;Virement
+100904;2024-11-29;Regnier;Café 1kg;Consommables;22;696.49;15322.78;Occitanie;Chèque
+100905;2025-08-11;Joubert Chauveau S.A.;Clavier mécanique;Informatique;2;613.89;1227.78;Grand Est;Chèque
+100906;2025-06-17;Ledoux Marques SA;Lingettes écran;Consommables;25;589.27;14731.75;Occitanie;Chèque
+100907;15/01/2026;Leconte Da Costa et Fils;Ordinateur portable;Informatique;1;779.39;779.39;Île-de-France;Carte
+100908;2026-08-02;Moulin;Switch 8 ports;Réseau;8;890.71;7125.68;Île-de-France;Carte
+100909;2026-06-14;Guillon;Chaise ergonomique;Mobilier;28;228.52;6398.56;Occitanie;Carte
+100910;2025-09-01;Raynaud et Fils;Ramette papier A4;Bureau;19;3.46;65.74;Auvergne-Rhône-Alpes;Carte
+100911;12/03/2026;Pottier Germain SA;Clavier mécanique;Informatique;34;652.25;37405.84;Auvergne-Rhône-Alpes;Chèque
+100912;2025-01-05;Robert;Lingettes écran;Consommables;39;248.27;9682.53;Île-de-France;
+100913;2025-08-13;Pottier Germain SA;Bureau assis-debout;Mobilier;39;35.37;1379.43;Grand Est;Chèque
+100914;2025-01-23;Meunier;Chaise ergonomique;Mobilier;4;148.15;592.6;Occitanie;Prélèvement
+100915;2026-04-01;François;Switch 8 ports;Réseau;12;73.0;876.0;Occitanie;Virement
+100916;2025-10-19;David Gomes S.A.R.L.;Lingettes écran;Consommables;26;765.17;19894.42;Bretagne;Chèque
+100917;2026-01-27;Fischer Muller SA;Caisson tiroirs;Mobilier;3;821.64;2464.92;Île-de-France;Prélèvement
+100918;2025-04-06;Verdier;Switch 8 ports;Réseau;34;657.38;22350.92;Occitanie;Virement
+100919;2025-12-31;Hoareau SA;Souris sans fil;Informatique;34;165.27;5619.18;Île-de-France;Carte
+100920;2026-05-29;Joly;Bureau assis-debout;Mobilier;14;887.96;12431.44;Auvergne-Rhône-Alpes;Chèque
+100921;24/08/2026;Bègue Didier S.A.R.L.;Café 1kg;Consommables;37;197.58;7310.46;Île-de-France;Prélèvement
+100922;2025-11-01;Ledoux Marques SA;Souris sans fil;Informatique;17;608.3;10341.1;Grand Est;Carte
+100923;2026-05-03;Rey Bodin S.A.S.;Chaise ergonomique;Mobilier;23;495.29;11391.67;Bretagne;Chèque
+100924;2025-09-19;Vallet Guilbert S.A.S.;Ramette papier A4;Bureau;26;575.45;14961.7;Occitanie;
+100925;2025-09-05;Duhamel Wagner SARL;Gobelets x100;Consommables;11;299.17;3290.87;Île-de-France;Carte
+100926;2025-08-13;Hoareau SA;Cartouche encre;Bureau;6;294.72;1768.32;Bretagne;Chèque
+100927;2026-06-12;Gillet SA;Switch 8 ports;Réseau;34;621.4;21127.6;Grand Est;Virement
+100928;30/03/2026;Laurent et Fils;Chaise ergonomique;Mobilier;5;427.44;2137.2;Auvergne-Rhône-Alpes;Carte
+100929;2025-12-13;Joly;Caisson tiroirs;Mobilier;27;195.14;5268.78;Grand Est;Carte
+100930;05/04/2025;François;Bloc-notes;Bureau;22;115.36;2537.92;Bretagne;Carte
+100931;2025-05-17;Meunier;Lingettes écran;Consommables;16;98.41;1574.56;Occitanie;Virement
+100932;02/07/2026;Joly;Agrafeuse;Bureau;33;410.38;13542.54;Occitanie;Chèque
+100933;2025-03-18;François;"Écran 27""";Informatique;26;307.63;7998.38;Bretagne;Carte
+100934;2026-06-16;Ledoux Marques SA;Café 1kg;Consommables;18;33.35;600.3;Île-de-France;Chèque
+100935;04/09/2026;Martinez SA;Café 1kg;;2;120.88;241.76;Bretagne;Prélèvement
+100936;2024-11-15;Moulin;Lingettes écran;Consommables;37;684.54;25327.98;Bretagne;
+100937;2025-04-13;Meyer;Cartouche encre;Bureau;1;408.87;570.82;Bretagne;Chèque
+100938;2026-07-25;Robert;"Écran 27""";;29;654.86;18990.94;Occitanie;Carte
+100939;2025-08-25;Regnier;Agrafeuse;Bureau;17;431.69;7338.73;Grand Est;Prélèvement
+100940;2025-03-17;Hoareau SA;Caisson tiroirs;Mobilier;39;309.4;12066.6;Auvergne-Rhône-Alpes;Virement
+100941;2026-04-14;Maury S.A.R.L.;Switch 8 ports;Réseau;32;386.25;12360.0;Île-de-France;Carte
+100942;2025-09-04;Robert;Caisson tiroirs;Mobilier;19;551.48;10478.12;Occitanie;Chèque
+100943;2025-11-25;Gillet SA;Ordinateur portable;Informatique;34;532.15;18093.1;Auvergne-Rhône-Alpes;Virement
+100944;2025-12-27;Leleu Charpentier SA;Bureau assis-debout;Mobilier;8;242.06;1936.48;Bretagne;Virement
+100945;2026-02-09;François;Gobelets x100;Consommables;28;234.84;6575.52;Bretagne;Carte
+100946;2025-06-30;Joly;"Écran 27""";Informatique;16;310.25;4964.0;Grand Est;Prélèvement
+100947;28/05/2025;Raynaud et Fils;Agrafeuse;Bureau;30;46.48;1394.4;Auvergne-Rhône-Alpes;Chèque
+100948;2024-10-01;Robert;Chaise ergonomique;Mobilier;1;701.67;701.67;Occitanie;Virement
+100949;2025-09-27;Hoareau SA;Ramette papier A4;Bureau;21;556.18;11679.78;Grand Est;Virement
+100950;2026-07-01;Leleu Charpentier SA;Switch 8 ports;Réseau;10;328.97;3289.7;Grand Est;Prélèvement
+100951;19/05/2025;Regnier;Agrafeuse;Bureau;19;890.52;16919.88;Grand Est;Prélèvement
+100952;2025-01-28;Fischer Muller SA;Agrafeuse;Bureau;34;829.92;28217.28;Île-de-France;Carte
+100953;2025-09-22;Leconte Da Costa et Fils;Café 1kg;Consommables;21;513.54;10784.34;Occitanie;Chèque
+100954;2025-02-20;Bertrand;Clavier mécanique;Informatique;11;5.95;65.45;Grand Est;Virement
+100955;2025-06-11;Hoareau SA;Café 1kg;Consommables;20;75.56;1511.2;Bretagne;
+100956;2026-05-21;Guillon;Chaise ergonomique;Mobilier;26;824.84;21445.84;Auvergne-Rhône-Alpes;Prélèvement
+100957;28/03/2025;Ledoux Marques SA;Point d'accès WiFi;Réseau;7;675.14;4725.98;Île-de-France;Chèque
+100958;2025-05-31;Laurent et Fils;Bureau assis-debout;Mobilier;32;248.26;7944.32;Occitanie;Carte
+100959;2025-04-14;Vasseur;Ramette papier A4;Bureau;39;432.33;16860.87;Occitanie;Prélèvement
+100960;2026-07-24;Pruvost;Bureau assis-debout;Mobilier;7;43.37;303.59;Occitanie;Prélèvement
+100961;2025-12-16;Regnier;Point d'accès WiFi;Réseau;4;536.04;2144.16;Occitanie;Chèque
+100962;2026-03-07;Raynaud et Fils;Clavier mécanique;Informatique;9;457.92;4121.28;Bretagne;Carte
+100963;2026-07-24;Robert;Ordinateur portable;Informatique;9;451.54;4063.86;Grand Est;Chèque
+100964;2025-04-11;Rocher Briand SARL;Agrafeuse;Bureau;18;599.08;10783.44;Grand Est;Carte
+100965;2025-11-14;Vasseur;Cartouche encre;Bureau;33;373.76;12334.08;Bretagne;Prélèvement
+100966;2024-09-16;Meyer;Clavier mécanique;Informatique;4;614.7;2458.8;Île-de-France;Carte
+100967;15/10/2025;Joly Gallet SA;Lingettes écran;Consommables;35;11.66;408.1;Grand Est;Virement
+100968;2025-02-04;Regnier;Souris sans fil;Informatique;18;248.89;4480.02;Auvergne-Rhône-Alpes;Carte
+100969;14/11/2024;Rey Bodin S.A.S.;"Écran 27""";Informatique;24;591.01;14184.24;Bretagne;Prélèvement
+100970;15/03/2025;Pinto Gillet SARL;Ordinateur portable;Informatique;15;725.42;10881.3;Grand Est;Virement
+100971;22/03/2026;Techer;Souris sans fil;Informatique;21;567.95;11926.95;Occitanie;Carte
+100972;2025-07-21;Meunier;Câble RJ45 5m;Réseau;5;245.75;1228.75;Grand Est;Chèque
+100731;2025-07-28;Guilbert S.A.;Switch 8 ports;;20;376.51;7530.2;Occitanie;Virement
+100973;2025-09-23;Meyer;Switch 8 ports;Réseau;24;215.6;5174.4;Grand Est;Chèque
+100974;2025-11-14;Robert;Cartouche encre;Bureau;21;626.9;13164.9;Bretagne;Chèque
+100975;2026-04-20;Pruvost;Agrafeuse;Bureau;31;613.03;19003.93;Grand Est;Carte
+100976;2025-03-14;Bousquet;Chaise ergonomique;Mobilier;37;543.19;20098.03;Bretagne;Prélèvement
+100977;2026-02-27;Martinez SA;Souris sans fil;Informatique;33;626.14;20662.62;Bretagne;Prélèvement
+100978;2025-09-13;Meyer;Ramette papier A4;Bureau;39;399.01;15561.39;Bretagne;
+100979;2026-01-23;Pruvost;Cartouche encre;Bureau;3;456.72;1370.16;Bretagne;Prélèvement
