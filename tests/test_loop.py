@@ -1,5 +1,6 @@
 """Tests du graphe LangGraph : lecture directe, pause HITL, garde-fou d'itérations, refus motivé."""
 import pytest
+from langchain_core.messages import HumanMessage, ToolMessage
 
 from agent import store
 from agent.loop import (
@@ -51,6 +52,57 @@ def test_guardrail_forces_report_at_15(scripted, raw_df):
     assert "Itération maximale atteinte (15)" in rep
     assert _graph_state("tg1")["iteration_count"] >= 15
     assert _graph_state("tg1")["task_done"] is True
+
+
+def test_start_run_seeds_a_human_message(scripted, raw_df):
+    # C1 : `think` doit toujours voir >= 1 message non-système (sinon Anthropic 400).
+    scripted([("ProfileDatasetArgs", {}), ("GenerateReportArgs", {})])
+    start_run("tc1", raw_df)
+    msgs = _graph_state("tc1")["messages"]
+    assert msgs
+    assert isinstance(msgs[0], HumanMessage)
+
+
+def test_tool_exception_yields_error_toolmessage_and_run_completes(scripted, raw_df, monkeypatch):
+    # I2 : dispatch qui lève -> enveloppe d'erreur, pas de crash, run terminé.
+    import agent.loop as loop_mod
+
+    real_dispatch = loop_mod.dispatch
+    calls = {"n": 0}
+
+    def flaky_dispatch(name, df, args):
+        calls["n"] += 1
+        if name == "profile_dataset":
+            raise RuntimeError("boom")
+        return real_dispatch(name, df, args)
+
+    monkeypatch.setattr(loop_mod, "dispatch", flaky_dispatch)
+    scripted([("ProfileDatasetArgs", {}), ("GenerateReportArgs", {})])
+    start_run("ti2", raw_df)
+    assert get_report("ti2") is not None
+    msgs = _graph_state("ti2")["messages"]
+    assert any(isinstance(m, ToolMessage) and '"error"' in m.content for m in msgs)
+
+
+def test_text_only_turn_is_nudged_back_on_track(scripted, raw_df):
+    # I3 : un tour LLM sans appel d'outil ne doit pas terminer le run à vide.
+    scripted(["Je réfléchis...", ("ProfileDatasetArgs", {}), ("GenerateReportArgs", {})])
+    start_run("ti3", raw_df)
+    assert get_report("ti3") is not None
+    assert _graph_state("ti3")["iteration_count"] >= 2
+
+
+def test_non_object_counter_proposal_does_not_crash(scripted, raw_df):
+    # I4 : contre-proposition qui n'est pas un objet -> refus simple, pas de crash.
+    scripted([
+        ("HandleDuplicatesArgs", {"sous_ensemble_colonnes": None, "justification": "x"}),
+        ("GenerateReportArgs", {}),
+    ])
+    start_run("ti4", raw_df)
+    assert get_pending_proposal("ti4")["tool_name"] == "handle_duplicates"
+    resume_run("ti4", {"decision": "refusee", "motif_refus": None, "contre_proposition": []})
+    # le graphe a repris (think) et poursuivi jusqu'au rapport
+    assert get_report("ti4") is not None
 
 
 def test_refusal_with_motif_goes_back_to_think(scripted, raw_df):

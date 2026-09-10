@@ -27,7 +27,6 @@ class AgentState(TypedDict):
     max_iterations: int
     checklist: dict
     pending_proposal: dict | None
-    pending_user_question: str | None
     human_decision: str | None
     motif_refus: str | None
     human_proposed_action: dict | None
@@ -44,7 +43,6 @@ def initial_state(thread_id: str) -> AgentState:
         max_iterations=config.MAX_ITERATIONS,
         checklist={k: False for k in CHECKLIST_KEYS},
         pending_proposal=None,
-        pending_user_question=None,
         human_decision=None,
         motif_refus=None,
         human_proposed_action=None,

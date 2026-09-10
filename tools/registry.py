@@ -13,19 +13,23 @@ def envelope(status: str, summary: str, metrics: dict | None = None, detail: Any
 
 # ---------- arg models: read tools ----------
 class ProfileDatasetArgs(BaseModel):
-    pass
+    """Profiler le jeu de données : types, valeurs manquantes, doublons, min/max par colonne numérique."""
 
 
 class DetectOutliersArgs(BaseModel):
+    """Détecter les valeurs extrêmes de colonnes numériques (méthode IQR ou z-score)."""
+
     colonnes: list[str] = Field(..., description="Colonnes numériques à analyser.")
     methode: Literal["iqr", "zscore"] = Field("iqr", description="Méthode de détection.")
 
 
 class GenerateReportArgs(BaseModel):
-    pass
+    """Générer le rapport de valorisation final à partir de l'état courant du jeu de données."""
 
 
 class PlotChartArgs(BaseModel):
+    """Tracer un graphique (barres, ligne, histogramme, nuage de points ou boîte)."""
+
     type: Literal["bar", "line", "histogram", "scatter", "box"]
     x: str
     y: str | None = None
@@ -39,23 +43,31 @@ class _Periode(BaseModel):
 
 
 class QueryDataframeArgs(BaseModel):
+    """Interroger les données en lecture seule : groupby/agrégation, comptage filtré, description de colonne ou top N."""
+
     operation: Literal["groupby_agg", "filter_count", "describe_column", "top_n"]
     parametres: dict = Field(default_factory=dict)
 
 
 # ---------- arg models: write tools ----------
 class FixColumnTypesArgs(BaseModel):
+    """Corriger le type des colonnes indiquées (entier, décimal, date, texte ou catégorie)."""
+
     colonnes: list[str]
     types_cibles: dict[str, Literal["entier", "decimal", "date", "texte", "categorie"]]
     justification: str
 
 
 class HandleDuplicatesArgs(BaseModel):
+    """Supprimer les lignes en doublon, éventuellement restreintes à un sous-ensemble de colonnes."""
+
     sous_ensemble_colonnes: list[str] | None = None
     justification: str
 
 
 class HandleMissingValuesArgs(BaseModel):
+    """Traiter les valeurs manquantes des colonnes indiquées (suppression de lignes, moyenne, médiane, mode ou constante)."""
+
     colonnes: list[str]
     strategie: Literal["drop_rows", "mean", "median", "mode", "constant"]
     valeur_constante: Any | None = None
@@ -74,6 +86,8 @@ class _BornesValides(BaseModel):
 
 
 class TreatOutliersArgs(BaseModel):
+    """Traiter les valeurs extrêmes ou les violations de règle métier (capping, suppression de lignes ou mise à NaN)."""
+
     colonnes: list[str]
     action: Literal["cap", "remove_rows", "set_nan"]
     justification: str
@@ -91,6 +105,8 @@ class _FeatureSpec(BaseModel):
 
 
 class EngineerFeaturesArgs(BaseModel):
+    """Créer une variable dérivée (composantes de date, ratio, binning, drapeau ou formule)."""
+
     specification: _FeatureSpec
     justification: str
 

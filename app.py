@@ -82,6 +82,9 @@ def _render_validation_panel(thread_id: str, proposal: dict) -> None:
             if contre_txt:
                 try:
                     contre = json.loads(contre_txt)
+                    if not isinstance(contre, dict):
+                        st.error("La contre-proposition doit être un objet JSON.")
+                        contre = None
                 except json.JSONDecodeError:
                     st.error("Contre-proposition ignorée : JSON invalide.")
                     contre = None
@@ -153,8 +156,10 @@ def main() -> None:
 
     question = st.chat_input("Poser une question sur les données")
     if question:
-        submit_question(thread_id, question)
+        st.session_state.last_answer = submit_question(thread_id, question)
         st.rerun()
+    if st.session_state.get("last_answer"):
+        st.chat_message("assistant").write(st.session_state.last_answer)
 
 
 if __name__ == "__main__":

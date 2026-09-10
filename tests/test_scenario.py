@@ -142,3 +142,23 @@ def test_out_of_band_question_keeps_pending_proposal(scripted):
     assert get_pending_proposal("scenario_oob")["tool_name"] == "handle_duplicates"
     # et aucun rapport n'a été généré par la question hors-bande
     assert _graph_state("scenario_oob").get("final_report") is None
+
+
+def test_out_of_band_question_does_not_deadlock_validation(scripted):
+    # C2 : après une question hors-bande, `resume_run` doit encore exécuter
+    # l'écriture ET produire le rapport (l'interruption n'a pas été purgée).
+    scripted([
+        ("HandleDuplicatesArgs", {"sous_ensemble_colonnes": None, "justification": "x"}),
+        ("GenerateReportArgs", {}),
+    ])
+    start_run("scenario_c2", generate_synthetic(500))
+    assert get_pending_proposal("scenario_c2")["tool_name"] == "handle_duplicates"
+
+    reponse = submit_question("scenario_c2", "Combien de lignes ?")
+    assert isinstance(reponse, str) and reponse
+    # la proposition en attente est intacte
+    assert get_pending_proposal("scenario_c2")["tool_name"] == "handle_duplicates"
+
+    resume_run("scenario_c2", {"decision": "validee", "motif_refus": None, "contre_proposition": None})
+    assert store.get_current("scenario_c2").duplicated().sum() == 0
+    assert get_report("scenario_c2") is not None

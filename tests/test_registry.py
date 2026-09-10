@@ -22,6 +22,12 @@ def test_llm_tools_list_has_ten_models():
     assert len(registry.LLM_TOOLS) == 10
 
 
+def test_every_llm_tool_model_has_a_docstring():
+    # I1 : bind_tools transmet `__doc__` comme description à Claude — aucune ne doit être vide.
+    for model in registry.LLM_TOOLS:
+        assert model.__doc__ and model.__doc__.strip()
+
+
 def test_validate_args_rejects_bad_enum():
     with pytest.raises(Exception):
         registry.validate_args("handle_missing_values", {

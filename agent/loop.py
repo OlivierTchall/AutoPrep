@@ -35,9 +35,18 @@ from tools.registry import (
 from tools.reporting import generate_report
 
 _CAP_MESSAGE = "Itération maximale atteinte (15) — je génère le rapport avec l'état actuel."
+_NUDGE_MESSAGE = (
+    "Tu n'as appelé aucun outil. Repasse la checklist de sortie, puis appelle "
+    "l'outil suivant approprié, ou generate_report si tout est validé."
+)
 _RECURSION_LIMIT = 100
 
 _GRAPH = None
+
+# Questions hors-bande posées pendant une pause `interrupt()` : `submit_question`
+# les empile ici (hors état du graphe, pour ne pas toucher au snapshot en pause) ;
+# `think` les draine et les rejoue dans `messages` au prochain cycle.
+_PENDING_QA: dict[str, list[tuple[str, str]]] = {}
 
 
 def cfg(thread_id: str) -> dict:
@@ -94,21 +103,21 @@ def think(state: AgentState) -> dict:
     out: dict = {"iteration_count": state["iteration_count"] + 1}
     extra: list = []
 
-    # Chemin secondaire : consommer une question hors-bande éventuellement posée
-    # via le think-node (le mécanisme primaire est `submit_question`, hors graphe).
-    if state.get("pending_user_question"):
-        ans = _answer_question(store.get_current(state["thread_id"]), state["pending_user_question"])
-        extra.append(AIMessage(content=f"[Réponse hors-bande] {ans}"))
-        out["pending_user_question"] = None
+    # Drainer les questions hors-bande posées pendant une pause (via `submit_question`,
+    # hors graphe) : on les rejoue comme paires Human/AI dans l'historique, sans avoir
+    # touché à la proposition en attente ni à l'interruption.
+    for q, a in _PENDING_QA.pop(state["thread_id"], []):
+        extra.append(HumanMessage(content=q))
+        extra.append(AIMessage(content=a))
 
     response = call_llm(
         [SystemMessage(content=SYSTEM_PROMPT), *state["messages"], *extra], LLM_TOOLS
     )
 
     # Pré-stage de la proposition d'écriture DANS l'état, avant toute pause :
-    # `submit_question` appelle `graph.update_state`, ce qui purge `snap.interrupts`
-    # de la vue du snapshot — `pending_proposal` doit donc vivre dans l'état pour
-    # que `get_pending_proposal` reste fiable pendant la pause (R1).
+    # `pending_proposal` vit dans l'état (et non seulement dans la valeur de
+    # l'interruption) pour que `get_pending_proposal` reste fiable pendant la
+    # pause, même si un `update_state` externe purgeait `snap.interrupts` (R1).
     if getattr(response, "tool_calls", None):
         tc = response.tool_calls[0]
         name = MODEL_NAME_TO_TOOL.get(tc["name"], tc["name"])
@@ -125,7 +134,7 @@ def route_after_think(state: AgentState) -> str:
     if state["iteration_count"] >= state["max_iterations"] and not has_calls:
         return "force_report"
     if not has_calls:
-        return END
+        return "nudge"
     name, _, _ = _pending_tool_call(state)
     if name == "generate_report":
         return "report"
@@ -148,10 +157,15 @@ def human_gate(state: AgentState) -> dict:
         }
 
     cp = decision.get("contre_proposition")
+    # Contre-proposition mal formée (pas un objet, ou clés manquantes) -> refus simple.
+    if cp is not None and (
+        not isinstance(cp, dict) or "tool_name" not in cp or "arguments" not in cp
+    ):
+        cp = None
     if cp:
         try:
             validate_args(cp["tool_name"], cp["arguments"])
-        except (ValidationError, KeyError) as exc:
+        except (ValidationError, KeyError, TypeError) as exc:
             return {
                 "pending_proposal": None,
                 "human_decision": None,
@@ -217,7 +231,15 @@ def act(state: AgentState) -> dict:
         name, args, _ = _pending_tool_call(state)
         origine = "auto"
 
-    new_df, env = dispatch(name, store.get_current(tid), args)
+    try:
+        new_df, env = dispatch(name, store.get_current(tid), args)
+    except Exception as e:  # noqa: BLE001 — l'échec devient une enveloppe d'erreur uniforme
+        new_df, env = None, {
+            "status": "error",
+            "summary": f"Échec inattendu de l'outil {name} : {e}",
+            "metrics": {},
+            "detail": None,
+        }
     if new_df is not None and env["status"] == "ok":
         store.set_current(tid, new_df)
 
@@ -263,16 +285,21 @@ def act(state: AgentState) -> dict:
 
 def _finish(state: AgentState, capped: bool) -> dict:
     tid = state["thread_id"]
-    env = generate_report(
-        store.get_original(tid), store.get_current(tid), state["actions_log"]
-    )
-    md = env["detail"]["markdown"]
+    try:
+        env = generate_report(
+            store.get_original(tid), store.get_current(tid), state["actions_log"]
+        )
+        md = env["detail"]["markdown"]
+        summary = env["summary"]
+    except Exception as e:  # noqa: BLE001 — le graphe doit terminer malgré un rapport en échec
+        md = f"Échec de la génération du rapport : {e}"
+        summary = md
     if capped:
         md = md.rstrip() + "\n\n## Note sur la génération\n\n" + _CAP_MESSAGE + "\n"
     return {
         "final_report": md,
         "task_done": True,
-        "messages": [AIMessage(content=env["summary"])],
+        "messages": [AIMessage(content=summary)],
     }
 
 
@@ -282,6 +309,13 @@ def report(state: AgentState) -> dict:
 
 def force_report(state: AgentState) -> dict:
     return _finish(state, capped=True)
+
+
+def nudge(state: AgentState) -> dict:
+    """Tour LLM sans appel d'outil et plafond non atteint : on relance `think` avec
+    un rappel explicite plutôt que de terminer le run à vide. Le garde-fou borne
+    toujours la boucle (chaque `think` incrémente -> plafond -> `force_report`)."""
+    return {"messages": [HumanMessage(content=_NUDGE_MESSAGE)]}
 
 
 # ---------------------------------------------------------------- graph
@@ -299,6 +333,7 @@ def build_graph():
     g.add_node("human_gate", human_gate)
     g.add_node("force_report", force_report)
     g.add_node("report", report)
+    g.add_node("nudge", nudge)
 
     g.add_edge(START, "think")
     g.add_conditional_edges(
@@ -309,10 +344,11 @@ def build_graph():
             "human_gate": "human_gate",
             "report": "report",
             "force_report": "force_report",
-            END: END,
+            "nudge": "nudge",
         },
     )
     g.add_conditional_edges("human_gate", route_after_gate, {"act": "act", "think": "think"})
+    g.add_edge("nudge", "think")
     g.add_edge("act", "think")
     g.add_edge("force_report", END)
     g.add_edge("report", END)
@@ -327,6 +363,7 @@ def reset_graph() -> None:
     global _GRAPH
     _GRAPH = None
     store.DF_STORE.clear()
+    _PENDING_QA.clear()
 
 
 # ---------------------------------------------------------------- app-facing helpers
@@ -342,7 +379,19 @@ def _snapshot(thread_id: str):
 
 def start_run(thread_id: str, df) -> dict:
     store.init_thread(thread_id, df)
-    build_graph().invoke(initial_state(thread_id), cfg(thread_id))
+    state = initial_state(thread_id)
+    # Seed : `think` doit toujours voir >= 1 message non-système, sinon le premier
+    # appel Anthropic renvoie 400 ("at least one message required").
+    state["messages"] = [
+        HumanMessage(
+            content=(
+                f"Voici le jeu de données à préparer : {len(df)} lignes, "
+                f"{len(df.columns)} colonnes ({', '.join(map(str, df.columns))}). "
+                "Commence par le profilage (profile_dataset), puis suis l'ordre des opérations."
+            )
+        )
+    ]
+    build_graph().invoke(state, cfg(thread_id))
     return _graph_state(thread_id)
 
 
@@ -353,19 +402,17 @@ def resume_run(thread_id: str, reponse_humaine: dict) -> dict:
     return _graph_state(thread_id)
 
 
-def submit_question(thread_id: str, question: str) -> dict:
-    """Question hors-bande — R1 : NE relance PAS le graphe (un graphe en pause sur
-    `interrupt()` recevrait `None` comme valeur de reprise et détruirait la
-    proposition en attente). On répond en lecture seule sur le df courant puis on
-    ajoute la paire Q/R à `messages` via `update_state`. La proposition en attente
-    et l'interruption restent intactes."""
-    df = store.get_current(thread_id)
-    answer = _answer_question(df, question)
-    build_graph().update_state(
-        cfg(thread_id),
-        {"messages": [HumanMessage(content=question), AIMessage(content=answer)]},
-    )
-    return _graph_state(thread_id)
+def submit_question(thread_id: str, question: str) -> str:
+    """Question hors-bande — R1 : NE touche PAS au graphe. `graph.update_state`
+    pendant une pause `interrupt()` purge la tâche `human_gate` en attente, si bien
+    que le `resume_run` suivant ne reprend rien et le run se termine sans exécuter
+    l'écriture (bouton Valider silencieusement inopérant). On répond ici en lecture
+    seule sur le df courant, on empile la paire Q/R dans `_PENDING_QA` (drainée par
+    `think` au prochain cycle) et on renvoie la réponse. La proposition en attente
+    et l'interruption restent strictement intactes."""
+    answer = _answer_question(store.get_current(thread_id), question)
+    _PENDING_QA.setdefault(thread_id, []).append((question, answer))
+    return answer
 
 
 def get_pending_proposal(thread_id: str):

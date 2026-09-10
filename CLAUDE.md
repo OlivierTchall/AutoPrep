@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project status
 
-This repo is currently a **scaffold**, not an implementation. `src/autoprep/__init__.py` only contains a placeholder `main()`. The real design lives in `autoprep-agent-architecture.md` — a complete, validated architecture spec (prompt, tool contracts, state schema, file tree, definition of done) written by the project's architect (Olivier) for implementation. Read that file before writing any agent/tool code; it is the source of truth, not this summary.
+The MVP is **implemented** per `autoprep-agent-architecture.md`, with a root-level layout: `agent/` (the LangGraph loop, state schema, system prompt, `llm_client`), `tools/` (the 10 tools plus `registry.py`), `data/generate_synthetic.py` (seeded Faker generator), `app.py` (Streamlit UI), and `tests/` (51 tests, including the end-to-end `tests/test_scenario.py` that encodes the definition of done). The architecture doc remains the source of truth for design decisions — read it before changing any agent/tool behavior, and prefer it over this summary. Run the suite with `uv run pytest`.
 
 ## Working method (see `methode-olivier-architecte.md`)
 
