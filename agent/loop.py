@@ -69,6 +69,30 @@ def _pending_tool_call(state: AgentState):
     return name, tc["args"], tc["id"]
 
 
+def _extra_tool_call_stubs(state: AgentState) -> list[ToolMessage]:
+    """Défense en profondeur : si le modèle renvoie plusieurs `tool_calls` dans un même
+    tour (parallel tool use — désactivé via `parallel_tool_calls=False` dans `call_llm`,
+    mais on ne dépend pas uniquement de ce flag), seul `tool_calls[0]` est traité par ce
+    cycle. Les autres reçoivent immédiatement un `tool_result` stub : sans ça, Anthropic
+    rejette le prochain appel ('tool_use ids were found without tool_result blocks')."""
+    extras = state["messages"][-1].tool_calls[1:]
+    if not extras:
+        return []
+    return [
+        ToolMessage(
+            tool_call_id=tc["id"],
+            content=json.dumps(
+                {
+                    "status": "skipped",
+                    "summary": "Non exécuté : un seul outil est traité par cycle de raisonnement.",
+                },
+                ensure_ascii=False,
+            ),
+        )
+        for tc in extras
+    ]
+
+
 def _answer_question(df, question: str) -> str:
     """Réponse best-effort, lecture seule, à une question hors-bande.
 
@@ -177,7 +201,8 @@ def human_gate(state: AgentState) -> dict:
                             "Contre-proposition invalide : "
                             f"{exc}. Propose une action corrigée."
                         ),
-                    )
+                    ),
+                    *_extra_tool_call_stubs(state),
                 ],
             }
         return {
@@ -198,7 +223,8 @@ def human_gate(state: AgentState) -> dict:
                     f"Proposition refusée. Motif : {motif or 'non précisé'}. "
                     "Propose une alternative qui en tient compte."
                 ),
-            )
+            ),
+            *_extra_tool_call_stubs(state),
         ],
     }
 
@@ -255,7 +281,8 @@ def act(state: AgentState) -> dict:
                     },
                     ensure_ascii=False,
                 ),
-            )
+            ),
+            *_extra_tool_call_stubs(state),
         ],
         "pending_proposal": None,
         "human_decision": None,

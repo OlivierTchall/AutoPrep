@@ -14,7 +14,14 @@ def call_llm(messages: list, tools: list):
         api_key=config.ANTHROPIC_API_KEY,
         temperature=0,
         max_tokens=4096,
-    ).bind_tools(tools)
+    ).bind_tools(
+        tools,
+        # La boucle ReAct traite un seul outil par cycle (think -> un appel -> observation).
+        # Sans ce flag, Anthropic peut renvoyer plusieurs tool_use dans un même tour ; seul
+        # tool_calls[0] serait traité et les autres resteraient sans tool_result, ce que
+        # l'API rejette au tour suivant ("tool_use ids were found without tool_result blocks").
+        parallel_tool_calls=False,
+    )
     try:
         return model.invoke(messages)
     except Exception:

@@ -10,7 +10,9 @@ def raw_df():
 
 class ScriptedLLM:
     """Remplace call_llm : renvoie une séquence d'AIMessage préparés. Chaque entrée est
-    soit un str (prose, pas de tool_call), soit (tool_class_name, args_dict)."""
+    soit un str (prose, pas de tool_call), soit (tool_class_name, args_dict) pour un seul
+    tool_call, soit une liste de (tool_class_name, args_dict) pour simuler plusieurs
+    tool_calls dans un même tour (parallel tool use côté modèle réel)."""
 
     def __init__(self, script):
         self.script = list(script)
@@ -21,6 +23,12 @@ class ScriptedLLM:
         self.calls += 1
         if isinstance(item, str):
             return AIMessage(content=item)
+        if isinstance(item, list):
+            tool_calls = [
+                {"name": name, "args": args, "id": f"call_{self.calls}_{i}"}
+                for i, (name, args) in enumerate(item)
+            ]
+            return AIMessage(content="", tool_calls=tool_calls)
         name, args = item
         return AIMessage(
             content="",

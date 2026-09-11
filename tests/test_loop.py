@@ -105,6 +105,41 @@ def test_non_object_counter_proposal_does_not_crash(scripted, raw_df):
     assert get_report("ti4") is not None
 
 
+def test_parallel_tool_calls_do_not_orphan_tool_use_ids(scripted, raw_df):
+    # Bug live constaté avec l'API réelle (Claude Haiku 4.5) : le modèle a renvoyé
+    # plusieurs tool_calls dans un même tour ; seul tool_calls[0] était traité et les
+    # autres restaient sans tool_result -> Anthropic 400 au tour suivant. `call_llm`
+    # désactive maintenant `parallel_tool_calls`, et `act` répond quand même à tout
+    # tool_call excédentaire par un tool_result "skipped" en défense en profondeur.
+    scripted([
+        [("ProfileDatasetArgs", {}), ("DetectOutliersArgs", {"colonnes": ["quantite"], "methode": "iqr"})],
+        ("GenerateReportArgs", {}),
+    ])
+    start_run("tpar1", raw_df)
+    msgs = _graph_state("tpar1")["messages"]
+    assert any(isinstance(m, ToolMessage) and '"skipped"' in m.content for m in msgs)
+    # le premier tool_call (profile_dataset) a bien été exécuté, la boucle a continué
+    assert get_report("tpar1") is not None
+
+
+def test_parallel_tool_calls_on_a_refused_write_tool_still_stub_the_rest(scripted, raw_df):
+    # Même défense, mais quand tool_calls[0] est un outil d'écriture refusé sans
+    # contre-proposition : c'est `human_gate`, pas `act`, qui répond au premier appel.
+    scripted([
+        [
+            ("HandleDuplicatesArgs", {"sous_ensemble_colonnes": None, "justification": "x"}),
+            ("DetectOutliersArgs", {"colonnes": ["quantite"], "methode": "iqr"}),
+        ],
+        ("GenerateReportArgs", {}),
+    ])
+    start_run("tpar2", raw_df)
+    assert get_pending_proposal("tpar2")["tool_name"] == "handle_duplicates"
+    resume_run("tpar2", {"decision": "refusee", "motif_refus": "x", "contre_proposition": None})
+    msgs = _graph_state("tpar2")["messages"]
+    assert any(isinstance(m, ToolMessage) and '"skipped"' in m.content for m in msgs)
+    assert get_report("tpar2") is not None
+
+
 def test_refusal_with_motif_goes_back_to_think(scripted, raw_df):
     scripted([
         ("HandleMissingValuesArgs", {"colonnes": ["categorie"], "strategie": "drop_rows", "justification": "x"}),
